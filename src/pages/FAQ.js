@@ -3,7 +3,7 @@ import Header from '../components/Header';
 
 
 const FAQ = () => {
-    
+
   return (
     <div>
       <Header />
