@@ -4,7 +4,7 @@ import * as BlogModal from './ClickMe';
 import BlogList from './BlogList';
 
 const BlogItem = () => {
-  const list = BlogList.slice(0, 6).map((blog, index) => (
+  const list = BlogList.slice(0, 1000).map((blog, index) => (
     <Fade bottom>
       <div
         className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4"
