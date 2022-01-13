@@ -21,7 +21,7 @@ const Blog = () => {
             Blog
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base mt-3 -mb-5">
-            PnP의 Blog들을 소개합니다.
+            PnP 사람들의 Blog를 소개합니다.
           </p>
         </div>
 
