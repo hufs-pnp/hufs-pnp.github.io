@@ -14,7 +14,7 @@ const Blogs = [
   },
   {
     cateogry: 'web',
-    title: 'web 0000 기술 0000 정리',
+    title: 'web  기술 0000 정리',
     content:
       '이번 000학우가 작성한 web ---기술의 000에 관한 정리 내용',
     imageurl: web,
