@@ -44,6 +44,14 @@ const Blogs = [
     imageurl: web,
     link: 'https://velog.io/@kimhaech',
   },
+  {
+    cateogry: 'game',
+    title: 'game 0000 기술 0000 정리',
+    content:
+      '이번 000학우가 작성한 game ---기술의 000에 관한 정리 내용',
+    imageurl: game,
+    link: 'https://velog.io/@kimhaech',
+  },
 ];
 
 
