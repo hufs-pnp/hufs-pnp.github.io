@@ -4,6 +4,7 @@ import IntroduceGraduate from './IntroduceGraduate';
 import ShowGraduate from './ShowGraduate';
 import Buttons from './Buttons';
 import Band from './Band';
+import Footer from '../../../components/Footer';
 
 class Graduates extends Component {
 
@@ -15,6 +16,7 @@ class Graduates extends Component {
         <Buttons />
         <Band />
         <ShowGraduate />
+        <Footer />
       </div>
     )
   }

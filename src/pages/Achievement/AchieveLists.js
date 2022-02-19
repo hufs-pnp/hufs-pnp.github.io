@@ -5,7 +5,6 @@ import Yearslist from './Yearslist.json'
 const AchieveLists = () => {
   // 년도값
   const y_li = Object.keys(Yearslist).sort().reverse()
-
   let i
 
   const i_list = {} // Yearslist의 키값에 해당하는 values

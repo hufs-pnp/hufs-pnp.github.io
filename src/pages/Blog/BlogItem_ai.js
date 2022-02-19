@@ -2,9 +2,10 @@ import React from 'react';
 import Fade from 'react-reveal/Fade';
 import * as BlogModal from './ClickMe';
 import BlogList from './BlogList.json';
+import * as BlogCheck from './Check_cate';
 
-const BlogItem = () => {
-  const list = BlogList.Blogs.slice(0).map((blog, index) => (
+const BlogItem_ai = () => {
+  const list = BlogCheck.cateCheck("AI", BlogList.Blogs).slice(0).map((blog, index) => (
     <Fade bottom>
       <div
         className="w-full sm:w-1/2 md:w-1/2 xl:w-1/4 p-4"
@@ -46,4 +47,4 @@ const BlogItem = () => {
   return list;
 };
 
-export default BlogItem;
+export default BlogItem_ai;

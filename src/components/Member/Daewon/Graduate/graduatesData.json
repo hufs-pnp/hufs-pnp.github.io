@@ -1,0 +1,462 @@
+[
+  {
+    "name": "김성필",
+    "classof": "93학번"
+  },
+  {
+    "name": "김영욱",
+    "classof": "93학번"
+  },
+  {
+    "name": "김경호",
+    "classof": "95학번"
+  },
+  {
+    "name": "김승범",
+    "classof": "95학번"
+  },
+  {
+    "name": "김준수",
+    "classof": "95학번"
+  },
+  {
+    "name": "김한준",
+    "classof": "95학번"
+  },
+  {
+    "name": "남화성",
+    "classof": "95학번"
+  },
+  {
+    "name": "민성훈",
+    "classof": "95학번"
+  },
+  {
+    "name": "양성준",
+    "classof": "95학번"
+  },
+  {
+    "name": "오종갑",
+    "classof": "95학번"
+  },
+  {
+    "name": "임성규",
+    "classof": "95학번"
+  },
+  {
+    "name": "최원혁",
+    "classof": "95학번"
+  },
+  {
+    "name": "최지용",
+    "classof": "95학번"
+  },
+  {
+    "name": "함종규",
+    "classof": "96학번"
+  },
+  {
+    "name": "권한준",
+    "classof": "96학번"
+  },
+  {
+    "name": "정해성",
+    "classof": "96학번"
+  },
+  {
+    "name": "서기원",
+    "classof": "98학번"
+  },
+  {
+    "name": "최재원",
+    "classof": "98학번"
+  },
+  {
+    "name": "박성우",
+    "classof": "00학번"
+  },
+  {
+    "name": "신기영",
+    "classof": "00학번"
+  },
+  {
+    "name": "이명호",
+    "classof": "00학번"
+  },
+  {
+    "name": "이규섭",
+    "classof": "00학번"
+  },
+  {
+    "name": "김근호",
+    "classof": "00학번"
+  },
+  {
+    "name": "이원석",
+    "classof": "00학번"
+  },
+  {
+    "name": "안형진",
+    "classof": "00학번"
+  },
+  {
+    "name": "김상중",
+    "classof": "00학번"
+  },
+  {
+    "name": "김형식",
+    "classof": "00학번"
+  },
+  {
+    "name": "조준희",
+    "classof": "01학번"
+  },
+  {
+    "name": "김학현",
+    "classof": "02학번"
+  },
+    {
+    "name": "김현수",
+    "classof": "02학번"
+  },
+    {
+    "name": "최승용",
+    "classof": "02학번"
+  },
+    {
+    "name": "박정철",
+    "classof": "02학번"
+  },
+    {
+    "name": "최일섭",
+    "classof": "02학번"
+  },
+    {
+    "name": "장재희",
+    "classof": "03학번"
+  },
+    {
+    "name": "이중배",
+    "classof": "03학번"
+  },
+      {
+    "name": "민경찬",
+    "classof": "04학번"
+  },
+      {
+    "name": "안형준",
+    "classof": "04학번"
+  },
+      {
+    "name": "오선영",
+    "classof": "04학번"
+  },
+      {
+    "name": "한승준",
+    "classof": "04학번"
+  },
+      {
+    "name": "한종하",
+    "classof": "04학번"
+  },
+      {
+    "name": "조민수",
+    "classof": "05학번"
+  },
+      {
+    "name": "유준영",
+    "classof": "05학번"
+  },
+  {
+    "name": "김현빈",
+    "classof": "07학번"
+  },
+  {
+    "name": "홍영택",
+    "classof": "07학번"
+  },
+    {
+    "name": "홍다영",
+    "classof": "07학번"
+  },
+    {
+    "name": "이상윤",
+    "classof": "07학번"
+  },
+    {
+    "name": "하성민",
+    "classof": "07학번"
+  },
+    {
+    "name": "한민우",
+    "classof": "07학번"
+  },
+    {
+    "name": "박준혁",
+    "classof": "07학번"
+  },
+    {
+    "name": "임근형",
+    "classof": "07학번"
+  },
+    {
+    "name": "손준형",
+    "classof": "08학번"
+  },
+    {
+    "name": "김형진",
+    "classof": "08학번"
+  },
+    {
+    "name": "남민욱",
+    "classof": "09학번"
+  },
+    {
+    "name": "이승철",
+    "classof": "09학번"
+  },  
+  {
+    "name": "강은영",
+    "classof": "10학번"
+  },
+    {
+    "name": "김정은",
+    "classof": "10학번"
+  },
+    {
+    "name": "이선아",
+    "classof": "10학번"
+  },
+    {
+    "name": "이지연",
+    "classof": "10학번"
+  },
+    {
+    "name": "장효진",
+    "classof": "10학번"
+  },
+    {
+    "name": "이찬혁",
+    "classof": "10학번"
+  },
+    {
+    "name": "김기주",
+    "classof": "10학번"
+  },
+    {
+    "name": "변준석",
+    "classof": "10학번"
+  },
+  {
+    "name": "김세란",
+    "classof": "11학번"
+  },
+    {
+    "name": "신은영",
+    "classof": "11학번"
+  },
+    {
+    "name": "김태경",
+    "classof": "11학번"
+  },
+    {
+    "name": "박균호",
+    "classof": "11학번"
+  },
+    {
+    "name": "이승진",
+    "classof": "11학번"
+  },
+    {
+    "name": "이웅희",
+    "classof": "11학번"
+  },
+    {
+    "name": "이종범",
+    "classof": "11학번"
+  },
+    {
+    "name": "임상혁",
+    "classof": "11학번"
+  },
+
+    {
+    "name": "유준모",
+    "classof": "11학번"
+  },
+  {
+    "name": "문지애",
+    "classof": "12학번"
+  },
+    {
+    "name": "강성훈",
+    "classof": "12학번"
+  },
+    {
+    "name": "우지훈",
+    "classof": "12학번"
+  },
+    {
+    "name": "박대원",
+    "classof": "12학번"
+  },
+    {
+    "name": "허행찬",
+    "classof": "12학번"
+  },
+    {
+    "name": "지민규",
+    "classof": "12학번"
+  },
+    {
+    "name": "정희택",
+    "classof": "12학번"
+  },
+    {
+    "name": "심현종",
+    "classof": "13학번"
+  },
+      {
+    "name": "정경소",
+    "classof": "13학번"
+  },
+      {
+    "name": "김기림",
+    "classof": "13학번"
+  },
+      {
+    "name": "송지웅",
+    "classof": "13학번"
+  },
+      {
+    "name": "김윤기",
+    "classof": "13학번"
+  },
+      {
+    "name": "박대현",
+    "classof": "13학번"
+  },
+      {
+    "name": "윤예슬",
+    "classof": "13학번"
+  },
+      {
+    "name": "신다희",
+    "classof": "14학번"
+  },
+        {
+    "name": "이새하",
+    "classof": "14학번"
+  },
+        {
+    "name": "윤종호",
+    "classof": "14학번"
+  },
+        {
+    "name": "노희주",
+    "classof": "14학번"
+  },
+        {
+    "name": "백승재",
+    "classof": "14학번"
+  },
+        {
+    "name": "백승재",
+    "classof": "14학번"
+  },
+        {
+    "name": "박이현",
+    "classof": "14학번"
+  },
+        {
+    "name": "이재빈",
+    "classof": "14학번"
+  },
+      {
+    "name": "정지영",
+    "classof": "14학번"
+  },
+  {
+    "name": "배수빈",
+    "classof": "15학번"
+  },
+    {
+    "name": "오신행",
+    "classof": "15학번"
+  },
+    {
+    "name": "이수빈",
+    "classof": "15학번"
+  },
+    {
+    "name": "윤소연",
+    "classof": "15학번"
+  },
+    {
+    "name": "허원정",
+    "classof": "15학번"
+  },
+    {
+    "name": "김민근",
+    "classof": "15학번"
+  },
+    {
+    "name": "박가연",
+    "classof": "15학번"
+  },
+    {
+    "name": "최유정",
+    "classof": "15학번"
+  },
+    {
+    "name": "선희은",
+    "classof": "15학번"
+  },
+    {
+    "name": "정현진",
+    "classof": "15학번"
+  },
+    {
+    "name": "배준성",
+    "classof": "15학번"
+  },
+    {
+    "name": "이수연",
+    "classof": "16학번"
+  },
+      {
+    "name": "조규민",
+    "classof": "16학번"
+  },
+      {
+    "name": "김지수",
+    "classof": "16학번"
+  },
+      {
+    "name": "박기웅",
+    "classof": "16학번"
+  },
+      {
+    "name": "김현주",
+    "classof": "16학번"
+  },
+      {
+    "name": "이재은",
+    "classof": "16학번"
+  },
+      {
+    "name": "박예빈",
+    "classof": "16학번"
+  },
+      {
+    "name": "김채현",
+    "classof": "17학번"
+  }
+
+
+
+
+
+
+
+]

@@ -1,22 +1,23 @@
 import React, { useState } from 'react';
 import ParticlesBg from 'particles-bg';
+import BlogItem_ai from './BlogItem_ai';
+import { Link } from 'react-router-dom';
+import Header from '../../components/Header/Header';
+import classNames from "classnames";
 import Footer from '../../components/Footer/Footer';
 import Scrollup from '../../components/Scrollup';
-import BlogItem from './BlogItem';
-import { Link } from 'react-router-dom';
-import classNames from "classnames";
-import Header from '../../components/Header/Header';
 
 
-const Blog = () => {
+const Blog_ai = () => {
   const [menuToggle, setMenuToggle] = useState(false);
   return (
-    <section id="Blog" className="text-gray-700 body-font bg-transparent relative">
+    <section id="Blog_ai" className="text-gray-700 body-font bg-transparent relative">
       <ParticlesBg type="ball" bg={true} />
       <Header />
       <br></br>
       <br></br>
       <br />
+
       <div className="container px-5 py-24 mx-auto">
         <div className='sm:-mt-20'>
           <div className="flex flex-col text-center w-full mb-20">
@@ -32,25 +33,20 @@ const Blog = () => {
           </div>
         </div>
 
-
-        <div className="flex flex-row place-content-center">
-
+        <div className="flex flex-row place-content-center mt-8">
           <div className="hidden md:flex items-center space-x-1">
-
-            <Link to="/Blog">
-              <button className="text-gray-600 bg-white border-b-2 border-indigo-400 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
+            <Link to="/blog">
+              <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
                 ALL
               </button>
             </Link>
-
-
             <Link to="/Blog_web">
               <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
                 WEB
               </button>
             </Link>
             <Link to="/Blog_ai">
-              <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
+              <button className="text-gray-600 bg-white border-b-2 border-indigo-400 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
                 AI
               </button>
             </Link>
@@ -107,12 +103,14 @@ const Blog = () => {
           </div>
 
 
+
         </div>
+
         {/* mobile menu items */}
         <div className={classNames("md:hidden", { hidden: !menuToggle })}>
           <div className="bg-gray-50">
             <Link to="/Blog">
-              <button className="block text-gray-600 border-b-2 border-indigo-400 py-2 px-36 hover:text-indigo-600 hover:border-indigo-600 text-lg mx-auto">
+              <button className="block text-gray-600 border-b-2 py-2 px-36 hover:text-indigo-600 hover:border-indigo-600 text-lg mx-auto">
                 ALL
               </button>
             </Link>
@@ -124,7 +122,7 @@ const Blog = () => {
               </button>
             </Link>
             <Link to="/Blog_ai">
-              <button className="block text-gray-600 border-b-2 py-2 px-36 hover:text-indigo-600 hover:border-indigo-600 text-lg mx-auto">
+              <button className="block text-gray-600 border-b-2 border-indigo-400 py-2 px-36 hover:text-indigo-600 hover:border-indigo-600 text-lg mx-auto">
                 AI
               </button>
             </Link>
@@ -145,7 +143,7 @@ const Blog = () => {
 
 
         <div className="flex flex-wrap -mx-4">
-          <BlogItem />
+          <BlogItem_ai />
         </div>
 
 
@@ -160,4 +158,4 @@ const Blog = () => {
   );
 };
 
-export default Blog;
+export default Blog_ai;

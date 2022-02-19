@@ -12,7 +12,7 @@ class ShowMember extends Component {
     const memberItem = memberData.map((Data) => {
       return (
         <div
-          className="h-20 w-44 flex items-center border-purple-300 border rounded-lg mb-8 ml-28 transform hover:shadow-lg motion-reduce:transform-none"
+          className="h-20 w-40 lg:h-20 lg:w-80 lg:ml-16 ml-4 flex items-center border-purple-300 border rounded-lg mb-4  transform hover:shadow-lg motion-reduce:transform-none"
           onMouseOver={(event) => {
             this.setState({ name: Data.name })
           }}
@@ -65,13 +65,13 @@ class ShowMember extends Component {
                 )
               } else {
                 return (
-                  <div class="flex flex-row ml-4">
+                  <div class="flex flex-row justify-center">
                     <div class="flex flex-row">
                       {(() => {
                         if (Data.github !== 'none') {
                           return (
                             <img
-                              class="w-4 h-4 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
+                              class="w-8 h-8 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                               alt="google"
                               src="https://cdn.pixabay.com/photo/2021/09/11/12/17/github-6615451_960_720.png"
                               onClick={() => window.open(Data.github, '_blank')}
@@ -84,7 +84,7 @@ class ShowMember extends Component {
                         if (Data.github === 'none') {
                           return (
                             <img
-                              class="w-4 h-4 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
+                              class="w-8 h-8 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                               alt="google"
                               src="https://cdn.pixabay.com/photo/2013/07/12/12/40/abort-146096_960_720.png"
                               onClick={() => alert('empty_github_URL')}
@@ -97,7 +97,7 @@ class ShowMember extends Component {
                         if (Data.blog !== 'none') {
                           return (
                             <img
-                              class="w-4 h-4 ml-2 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
+                              class="w-8 h-8 ml-2 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                               alt="google"
                               src="https://cdn.pixabay.com/photo/2016/03/21/23/25/link-1271843_960_720.png"
                               onClick={() => window.open(Data.blog, '_blank')}
@@ -110,7 +110,7 @@ class ShowMember extends Component {
                         if (Data.blog === 'none') {
                           return (
                             <img
-                              class="w-4 h-4 ml-2 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
+                              class="w-8 h-8 ml-2 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                               alt="google"
                               src="https://cdn.pixabay.com/photo/2013/07/12/12/40/abort-146096_960_720.png"
                               onClick={() => alert('empty_blog_URL')}
@@ -123,7 +123,7 @@ class ShowMember extends Component {
                         if (Data.email !== 'none') {
                           return (
                             <img
-                              class="w-4 h-4 ml-2 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
+                              class="w-8 h-8 ml-2 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                               alt="google"
                               src="https://cdn.pixabay.com/photo/2014/07/10/14/58/letters-389108_960_720.png"
                               onClick={() => alert('email: ' + Data.email)}
@@ -136,7 +136,7 @@ class ShowMember extends Component {
                         if (Data.email === 'none') {
                           return (
                             <img
-                              class="w-4 h-4 ml-2 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
+                              class="w-8 h-8 ml-2 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                               alt="google"
                               src="https://cdn.pixabay.com/photo/2013/07/12/12/40/abort-146096_960_720.png"
                               onClick={() => alert('empty_email')}
@@ -154,7 +154,7 @@ class ShowMember extends Component {
         </div>
       )
     })
-    return <div class="flex flex-wrap">{memberItem}</div>
+    return <div class="flex flex-wrap ml-16 mr-12 lg:ml-40">{memberItem}</div>
   }
 }
 
