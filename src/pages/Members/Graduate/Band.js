@@ -3,7 +3,7 @@ import { Component, React } from 'react'
 class IntroduceGraduate extends Component {
   render() {
     return (
-      <div className="felx flex-col text-center mt-12 mb-12">
+      <div className="flex flex-col text-center mt-12 mb-12 mx-5">
         <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
           모든 PnP 학회원들이 소통하는 네이버 밴드입니다.
         </h2>
