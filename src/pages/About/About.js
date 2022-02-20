@@ -6,6 +6,7 @@ import hufslogo from '../../static/images/about/school.png'
 import finalgoal from '../../static/images/about/success.png'
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import Scrollup from '../../components/Scrollup';
 
 const About = () => {
   return (
@@ -138,6 +139,7 @@ const About = () => {
        
     </section>
     <Footer />
+    <Scrollup />
     </div>
   );
 };

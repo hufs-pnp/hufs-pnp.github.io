@@ -24,7 +24,7 @@ const AchieveLists = () => {
       <div class="relative wrap overflow-hidden p-10 h-full">
         <div class="border-2-2 absolute border-opacity-20 border-gray-700 h-full border left-1/2 z-0"></div>
         {y_li.map((year, index) => (
-          <div id="{year}" class="relative z-50">
+          <div id="{year}" class="relative z-30">
             <Showachieve year={year} index={index}></Showachieve>
           </div>
         ))}

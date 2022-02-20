@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import professor from '../../static/images/professor/professor.png'
+import Scrollup from '../../components/Scrollup';
 
 const About_leader = () => {
   return (
@@ -100,6 +101,7 @@ const About_leader = () => {
             </Fade>
       </section>
       <Footer />
+      <Scrollup />
     </div>
   );
 };

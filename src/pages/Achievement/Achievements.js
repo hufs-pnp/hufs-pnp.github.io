@@ -4,6 +4,7 @@ import Header from '../../components/Header'
 import AchieveLists from './AchieveLists'
 import Yearslist from './Yearslist.json'
 import Footer from '../../components/Footer';
+import Scrollup from '../../components/Scrollup';
 
 const Achievements = () => {
   const FocusOn = (event) => {
@@ -80,6 +81,7 @@ const Achievements = () => {
       <br></br>
       <AchieveLists />
       <Footer />
+      <Scrollup />
     </div>
   )
 }

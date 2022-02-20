@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import Scrollup from '../../components/Scrollup';
 
 const About_activity = () => {
   return (
@@ -257,6 +258,7 @@ const About_activity = () => {
         
       </section>
     <Footer />
+    <Scrollup />
     </div>
   );
 };

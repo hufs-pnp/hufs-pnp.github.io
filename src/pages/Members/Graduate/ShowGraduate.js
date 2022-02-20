@@ -11,8 +11,9 @@ class ShowMember extends Component {
   render() {
     const memberItem = graduatesData.map((Data) => {
       return (
+        <div className="p-2 lg:w-1/3 md:w-1/2 w-full">
           <div
-            className="h-20 w-40 lg:h-20 lg:w-80 lg:ml-16 flex items-center border-purple-300 border rounded-lg mb-4 ml-4 transform hover:shadow-lg motion-reduce:transform-none"
+            className="h-full flex items-center border-purple-300 border p-4 rounded-lg transform hover:shadow-lg motion-reduce:transform-none"
             onMouseOver={(event) => {
               this.setState({ name: Data.name })
             }}
@@ -47,9 +48,10 @@ class ShowMember extends Component {
               </div>
             </div>
           </div>
+        </div>
       )
     })
-    return <div class="flex flex-wrap ml-16 lg:ml-40 mr-12">{memberItem}</div>
+    return <div class="flex flex-wrap -m-2">{memberItem}</div>
   }
 }
 

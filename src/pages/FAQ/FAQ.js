@@ -4,6 +4,7 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import ParticlesBg from 'particles-bg';
 import Fade from 'react-reveal/Fade';
+import Scrollup from '../components/Scrollup';
 
 const FAQ = () => {
     const [title, setTitle] = useState('');
@@ -180,6 +181,7 @@ const FAQ = () => {
     </div >
     </Fade>
     <Footer/>
+    <Scrollup />
     </section>
   );
 };

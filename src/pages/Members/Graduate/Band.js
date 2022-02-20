@@ -10,7 +10,7 @@ class IntroduceGraduate extends Component {
         <h1 className="sm:text-xl text-2xl font-medium title-font mb-4 text-gray-900">
           Passion & Pioneer 네이버 BAND 초대 링크
         </h1>
-        <span
+        {/* <span
           className="text-3xl text-indigo-500 border-purple-300 border rounded-lg transform hover:shadow-lg motion-reduce:transform-none cursor-pointer"
           alt="google"
           src="https://band.us/n/abac4du6z8Jcb"
@@ -20,7 +20,7 @@ class IntroduceGraduate extends Component {
           title="URL"
         >
           Link
-        </span>
+        </span> */}
         <p className="mx-auto leading-relaxed text-base text-red-500 mt-3">
           *PnP 학회원들만 네이버 BAND에 가입합니다.*
         </p>

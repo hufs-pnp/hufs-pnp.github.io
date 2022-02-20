@@ -3,6 +3,7 @@ import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import Scrollup from '../../components/Scrollup';
 
 const About_history = () => {
   return (
@@ -187,6 +188,7 @@ const About_history = () => {
     </section>
     
     <Footer />
+    <Scrollup />
     </div>
   );
 };

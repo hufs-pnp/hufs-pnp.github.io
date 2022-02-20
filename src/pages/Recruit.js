@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import recruitimage from '../static/svg/recruit.svg';
 import Fade from 'react-reveal/Fade';
+import Scrollup from '../components/Scrollup';
 
 const Recruit = () => {
   return (
@@ -139,6 +140,7 @@ const Recruit = () => {
                 </div>
         </section>
       <Footer />
+      <Scrollup />
     </div>
   );
 };

@@ -7,6 +7,7 @@ import jung from '../../static/images/leaders/2018.png'
 import kim from '../../static/images/leaders/2022.png'
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import Scrollup from '../../components/Scrollup';
 
 const About_leader = () => {
   return (
@@ -139,6 +140,7 @@ const About_leader = () => {
       </div>
       </section>
       <Footer />
+      <Scrollup />
     </div>
   );
 };
