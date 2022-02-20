@@ -81,91 +81,91 @@ class MakeChart extends Component {
       i = i + 1
     }
     return (
-      <div class="flex flex-row justify-center py-2">
-        <div class="">
-          <Chart
-            width={'30vw'}
-            // height={'300px'}
-            chartType="PieChart"
-            loader={<div>Loading Chart...</div>}
-            data={[
-              ['Grade', 'Number'],
-              ['1학년', num_first_grade],
-              ['2학년', num_second_grade],
-              ['3학년', num_third_grade],
-              ['4학년', num_fourth_grade],
-            ]}
-            options={{
-              title: 'Grade',
-              colors: ['#4B088A', '#5F04B4', '#7401DF', '#8000FF'],
-              fontSize: 13,
-            }}
-            rootProps={{ 'data-testid': '1' }}
-          />
+        <div class="flex py-2 inset-x-0 overflow-auto">
+          <div class="relative inset-x-0 md:w-2/6">
+            <Chart
+              // width={'331px'}
+              // height={'300px'}
+              chartType="PieChart"
+              loader={<div>Loading Chart...</div>}
+              data={[
+                ['Grade', 'Number'],
+                ['1학년', num_first_grade],
+                ['2학년', num_second_grade],
+                ['3학년', num_third_grade],
+                ['4학년', num_fourth_grade],
+              ]}
+              options={{
+                title: 'Grade',
+                colors: ['#4B088A', '#5F04B4', '#7401DF', '#8000FF'],
+                fontSize: 13,
+              }}
+              rootProps={{ 'data-testid': '1' }}
+            />
+          </div>
+          <div class="md:w-2/6">
+            <Chart
+              // width={'30vw'}
+              // height={'300px'}
+              chartType="PieChart"
+              loader={<div>Loading Chart...</div>}
+              data={[
+                ['ClassOf', 'Number'],
+                ['15학번', classof_fifteen],
+                ['16학번', classof_sixteen],
+                ['17학번', classof_seventeen],
+                ['18학번', classof_eighteen],
+                ['19학번', classof_nineteen],
+                ['20학번', classof_twenty],
+                ['21학번', classof_twentyone],
+              ]}
+              options={{
+                title: 'ClassOf',
+                colors: [
+                  '#4B088A',
+                  '#5F04B4',
+                  '#7401DF',
+                  '#8000FF',
+                  '#9A2EFE',
+                  '#AC58FA',
+                  '#BE81F7',
+                ],
+                fontSize: 13,
+              }}
+              rootProps={{ 'data-testid': '1' }}
+            />
+          </div>
+          <div class="md:w-2/6">
+            <Chart
+              // width={'30vw'}
+              // height={'300px'}
+              chartType="PieChart"
+              loader={<div>Loading Chart...</div>}
+              data={[
+                ['Team', 'Number'],
+                ['AI', num_ai],
+                ['게임', num_game],
+                ['알고리즘', num_algorithm],
+                ['보안', num_security],
+                ['Data', num_data],
+                ['Web', num_web],
+              ]}
+              options={{
+                title: 'Team',
+                colors: [
+                  '#4B088A',
+                  '#5F04B4',
+                  '#7401DF',
+                  '#8000FF',
+                  '#9A2EFE',
+                  '#AC58FA',
+                ],
+                fontSize: 13,
+              }}
+              rootProps={{ 'data-testid': '1' }}
+            />
+          </div> 
         </div>
-        <div class="">
-          <Chart
-            width={'30vw'}
-            // height={'300px'}
-            chartType="PieChart"
-            loader={<div>Loading Chart...</div>}
-            data={[
-              ['ClassOf', 'Number'],
-              ['15학번', classof_fifteen],
-              ['16학번', classof_sixteen],
-              ['17학번', classof_seventeen],
-              ['18학번', classof_eighteen],
-              ['19학번', classof_nineteen],
-              ['20학번', classof_twenty],
-              ['21학번', classof_twentyone],
-            ]}
-            options={{
-              title: 'ClassOf',
-              colors: [
-                '#4B088A',
-                '#5F04B4',
-                '#7401DF',
-                '#8000FF',
-                '#9A2EFE',
-                '#AC58FA',
-                '#BE81F7',
-              ],
-              fontSize: 13,
-            }}
-            rootProps={{ 'data-testid': '1' }}
-          />
-        </div>
-        <div class="">
-          <Chart
-            width={'30vw'}
-            // height={'300px'}
-            chartType="PieChart"
-            loader={<div>Loading Chart...</div>}
-            data={[
-              ['Team', 'Number'],
-              ['AI', num_ai],
-              ['게임', num_game],
-              ['알고리즘', num_algorithm],
-              ['보안', num_security],
-              ['Data', num_data],
-              ['Web', num_web],
-            ]}
-            options={{
-              title: 'Team',
-              colors: [
-                '#4B088A',
-                '#5F04B4',
-                '#7401DF',
-                '#8000FF',
-                '#9A2EFE',
-                '#AC58FA',
-              ],
-              fontSize: 13,
-            }}
-            rootProps={{ 'data-testid': '1' }}
-          />
-        </div>
-      </div>
     )
   }
 }
