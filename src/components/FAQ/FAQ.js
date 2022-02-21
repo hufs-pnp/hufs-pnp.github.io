@@ -18,14 +18,14 @@ const FAQ = () => {
                     <p className="leading-relaxed mt-2 mb-5 text-gray-600">
                         PNP FAQ 게시판입니다. 궁금하신내용을 검색해주세요~
                     </p>
-                <div className="flex-auto flex-shrink-0 space-x-2">
+                <div className="flex-auto flex-shrink-0 space-x-2 justify-items-center content-center">
                     <input
-                        className="bg-white rounded border w-3/4 border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-2 py-2 mb-4"
+                        className="bg-white rounded border w-3/4 border-gray-400 focus:outline-none focus:border-indigo-500 px-2 py-2"
                         placeholder="검색어 입력"
                         value={title}
                         onChange={({ target: { value } }) => setTitle(value)}
                     />
-                    <a
+                    {/* <a
                         href={
                             'mailto:tjddlf101@hufs.ac.kr?subject=' +
                             title +
@@ -33,10 +33,10 @@ const FAQ = () => {
                             content
                         }
                     >
-                    </a>
-                    <button className="text-white bg-indigo-500 border-0 w-1/5 py-2 px-4 mb-4 focus:outline-none hover:bg-indigo-600 rounded text-base">
+                    </a> */}
+                    <button className="text-white bg-indigo-500 border-0 w-1/6 focus:outline-none hover:bg-indigo-600 rounded h-full p-2">
                             검색
-                        </button>
+                    </button>
                 </div>
                 <p className="text-xs text-gray-500 mt-3">
                         찾는 질문이 없으시면 아래의 카카오톡 플러스칱구를 이용해 질문해주세요~
