@@ -26,7 +26,7 @@ const FAQ = () => {
                                 PNP FAQ 게시판입니다.
                             </p>
                             <p className="text-xs text-gray-500 mt-1 mb-3">
-                                찾는 질문이 없으시면 아래의 카카오톡 플러스칱구를 이용해 질문해주세요~
+                                찾는 질문이 없으시면 아래의 카카오톡 플러스칱구를 이용해 질문해주세요!
                             </p>
                             <a
                                 className="text-center sm:text-left"
