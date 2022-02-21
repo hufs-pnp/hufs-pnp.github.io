@@ -1,4 +1,3 @@
-
 { 
   "Blogs" : [
   {
@@ -71,6 +70,48 @@
     "content": "web에서 자주 사용되는 기술 중 하나인 CSS의 정리 포스팅입니다.",
     "imageurl": "images/blogimages/web.png",
     "link": "https://dev-jiseok.github.io/2021/01/15/CSS.html"
+  },
+  {
+    "cateogry": "web",
+    "title": "mongoose를 이용한 express와 db연결",
+    "content": "많은 관계형 데이터베이스가 주로 사용되고 있지만 mongoDB와 같은 비관계형 데이터베이스도 꾸준히 사용이 늘어나고 있는 추세입니다. 그래서 node js 와 mongoDB를 사용해서 로그인 페이지를 만들어 보는 포스팅 by 원동현",
+    "imageurl": "images/blogimages/web.png",
+    "link": "https://hellol77.tistory.com/34"
+  },
+  {
+    "cateogry": "web",
+    "title": "web try..catch와 에러 핸들링",
+    "content": "에러가 발생하면 스크립트는 즉시 중단되고, 콘솔에 에러가 출력된다. 그러나 try..catch 문법을 사용하면 스크립트가 중단되는 걸 방지하고, 에러를 잡아서(catch) 더 합당한 무언가를 할 수 있게 된다. 포스팅 by 심윤보",
+    "imageurl": "images/blogimages/web.png",
+    "link": "https://yunbo96.tistory.com/86"
+  },
+  {
+    "cateogry": "web",
+    "title": "web HTML 폼 정리",
+    "content": "web에서 자주 사용되는 기술 중 하나인 HTML 폼의 정리 포스팅입니다. 포스팅 by 이현진",
+    "imageurl": "images/blogimages/web.png",
+    "link": "https://blog.naver.com/qhdekfdl6955"
+  },
+  {
+    "cateogry": "web",
+    "title": "트위터 클론 코딩 개발 과정",
+    "content": "web 스터디팀에서 진행한 트위터 클론코딩의 개발 일지 및 방법 포스팅입니다. 포스팅 by 김주원",
+    "imageurl": "images/blogimages/web.png",
+    "link": "https://velog.io/@uomnf97_web/%ED%8A%B8%EC%9C%84%ED%84%B0-%ED%81%B4%EB%A1%A0-%EC%BD%94%EB%94%A9-2-Authentification"
+  },
+  {
+    "cateogry": "data",
+    "title": "DataFrame에서 자주 사용하는 전처리 기법",
+    "content": "Data 스터디팀에서 진행한 실습에서 DataFrame관한 포스팅입니다. 포스팅 by 조윤주",
+    "imageurl": "images/blogimages/data.png",
+    "link": "https://yjyjy99.tistory.com/19"
+  },
+  {
+    "cateogry": "data",
+    "title": "Data 시각화-Bar 차트&seaborn을 활용한 시각화",
+    "content": "Data 스터디팀에서 공부를 진행한 Bar 차트&seaborn을 활용한 시각화 포스팅입니다. 포스팅 by 황서정",
+    "imageurl": "images/blogimages/data.png",
+    "link": "https://6dreamhigh.tistory.com/36"
   }
 ]
 }
