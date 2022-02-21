@@ -81,7 +81,7 @@ class MakeChart extends Component {
       i = i + 1
     }
     return (
-        <div class="flex py-2 inset-x-0 overflow-auto">
+        <div class="flex py-2 inset-x-0 overflow-auto lg:mx-10 xl:mx-30">
           <div class="relative inset-x-0 md:w-2/6">
             <Chart
               // width={'331px'}
