@@ -21,7 +21,7 @@ const Recruit = () => {
                         </p>
                         <a
                             className="text-center sm:text-left"
-                            href="https://forms.gle/Y9vF74i1cqfPm9aF6"
+                            href="https://forms.gle/K4ti5Cy42sNNrCAu8"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -67,13 +67,13 @@ const Recruit = () => {
                                         <div class="order-1 w-5/12"></div>
                                         <div class="order-1 w-5/12 px-1 py-4 text-right">
                                             <p class="mb-3 text-base text-indigo-500">
-                                                08.26(목) ~ 09.10(금)
+                                                02.21 (월) ~ 03.11 (금)
                                             </p>
                                             <h4 class="mb-3 font-bold text-lg md:text-2xl">
                                                 지원서 제출
                                             </h4>
                                             <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
-                                                약 2주간 학회원 모집이
+                                                약 3주간 학회원 모집이
                                                 진행됩니다.
                                             </p>
                                         </div>
@@ -82,7 +82,7 @@ const Recruit = () => {
                                         <div class="order-1 w-5/12"></div>
                                         <div class="order-1  w-5/12 px-1 py-4 text-left">
                                             <p class="mb-3 text-base text-indigo-500">
-                                                09.13(월)
+                                                03.11 (금)~
                                             </p>
                                             <h4 class="mb-3 font-bold text-lg md:text-2xl">
                                                 면접
@@ -97,7 +97,7 @@ const Recruit = () => {
                                         <div class="order-1 w-5/12"></div>
                                         <div class="order-1 w-5/12 px-1 py-4 text-right">
                                             <p class="mb-3 text-base text-indigo-500">
-                                                9.20(월)
+                                                03.18 (금)
                                             </p>
                                             <h4 class="mb-3 font-bold text-lg md:text-2xl">
                                                 최종 합격자 안내
@@ -113,7 +113,7 @@ const Recruit = () => {
                                         <div class="order-1 w-5/12"></div>
                                         <div class="order-1  w-5/12 px-1 py-4">
                                             <p class="mb-3 text-base text-indigo-500">
-                                                09.22(수) ~
+                                                03.21 (월) ~
                                             </p>
                                             <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">
                                                 PnP 활동 시작
