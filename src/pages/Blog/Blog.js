@@ -14,11 +14,8 @@ const Blog = () => {
     <section id="Blog" className="text-gray-700 body-font bg-transparent relative">
       <ParticlesBg type="ball" bg={true} />
       <Header />
-      <br></br>
-      <br></br>
-      <br />
       <div className="container px-5 py-24 mx-auto">
-        <div className='sm:-mt-20'>
+        <div className='mt-16 md:mt-0'>
           <div className="flex flex-col text-center w-full mb-20">
             <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
               Blog
@@ -31,44 +28,8 @@ const Blog = () => {
             </p>
           </div>
         </div>
-
-
-        <div className="flex flex-row place-content-center">
-
-          <div className="hidden md:flex items-center space-x-1">
-
-            <Link to="/Blog">
-              <button className="text-gray-600 bg-white border-b-2 border-indigo-400 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
-                ALL
-              </button>
-            </Link>
-
-
-            <Link to="/Blog_web">
-              <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
-                WEB
-              </button>
-            </Link>
-            <Link to="/Blog_ai">
-              <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
-                AI
-              </button>
-            </Link>
-
-            <Link to="/Blog_game">
-              <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
-                GAME
-              </button>
-            </Link>
-            <Link to="/Blog_data">
-              <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
-                DATA
-              </button>
-            </Link>
-          </div>
-
-          {/* mobile menu */}
-          <div className="md:hidden flex items-center">
+        <div className="absolute z-50 sticky top-32 flex flex-col text-xs sm:static sm:text-base sm:flex-row place-content-center text-center">
+          <div className="sm:hidden self-center bg-yellow-200 w-full my-1 z-50">
             <button
               onClick={() => setMenuToggle(!menuToggle)}
             >
@@ -105,10 +66,71 @@ const Blog = () => {
               )}
             </button>
           </div>
-
-
+          <Link to="/Blog">
+            <button className="w-full sm:w-auto text-gray-600 bg-black border-b-2 border-indigo-400 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
+              ALL
+            </button>
+          </Link>
+          <Link to="/Blog_web">
+            <button className="w-full sm:w-auto text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
+              WEB
+            </button>
+          </Link>
+          <Link to="/Blog_ai">
+            <button className="w-full sm:w-auto text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
+              AI
+            </button>
+          </Link>
+          <Link to="/Blog_game">
+            <button className="w-full sm:w-auto text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
+              GAME
+            </button>
+          </Link>
+          <Link to="/Blog_data">
+            <button className="w-full sm:w-auto text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
+              DATA
+            </button>
+          </Link>
         </div>
-        {/* mobile menu items */}
+        {/* mobile menu
+        <div className="md:hidden flex items-center">
+          <button
+            onClick={() => setMenuToggle(!menuToggle)}
+          >
+            {menuToggle ? (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            ) : (
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            )}
+          </button>
+        </div> */}
+        {/* mobile menu items
         <div className={classNames("md:hidden", { hidden: !menuToggle })}>
           <div className="bg-gray-50">
             <Link to="/Blog">
@@ -140,7 +162,7 @@ const Blog = () => {
               </button>
             </Link>
           </div>
-        </div>
+        </div> */}
 
 
 
