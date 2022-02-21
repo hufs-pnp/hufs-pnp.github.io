@@ -5,6 +5,7 @@ import MakeChart from './Students/MakeChart';
 import ShowMember from './Students/ShowMember';
 import Buttons from './Students/Buttons';
 import Footer from '../../components/Footer';
+import Scrollup from '../../components/Scrollup';
 
 const Members = () => {
   return (
@@ -13,9 +14,13 @@ const Members = () => {
       <Introduce />
       <Buttons />
       <MakeChart />
-      {/*<MakeChart/>*/}
-      <ShowMember />
+      {/* <MakeChart/> */}
+      <div className="container px-5 pt-2 pb-24 mx-auto">
+        <ShowMember />
+      </div>
       <Footer />
+      <Scrollup />
+
     </div>
   )
 };

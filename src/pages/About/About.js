@@ -6,12 +6,13 @@ import hufslogo from '../../static/images/about/school.png'
 import finalgoal from '../../static/images/about/success.png'
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import Scrollup from '../../components/Scrollup';
 
 const About = () => {
   return (
     <div>
       <Header />
-      <div class="mt-40 lg:mt-24">
+      <div class="mt-40 md:mt-24">
         <div className="flex flex-col text-center w-full">
           <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
             About
@@ -88,7 +89,7 @@ const About = () => {
               />
               </div>
               <div class="p-8">
-                  <h2 className="text-indigo-500 tracking-widest font-medium title-font xl:ml-16 2xl:ml-72 mb-1">Our Goal</h2>
+                  <h2 className="text-indigo-500 tracking-widest font-medium title-font xl:ml-16 2xl:ml-64 mb-1">Our Goal</h2>
                   <h1 className="font-medium title-font mb-4 text-gray-900 xl:ml-16 2xl:ml-72 text-center">학회 목적</h1>
                   <div class = "space-y-2">
                     <p className ="lg:w-4/5 xl:ml-16 2xl:ml-72 text-lg mt-3 text-left ">
@@ -96,7 +97,6 @@ const About = () => {
                     </p>
                     <p className="lg:w-4/5 xl:ml-16 2xl:ml-72 lg:whitespace-nowrap text-lg mt-3 text-left ">
                     2. 컴퓨터 기술 및 이론에 관한 학습을 통해 자신의 소프트웨어 분야 전문성 증진
-                    
                     </p>
                     <p className="lg:w-4/5 xl:ml-16 2xl:ml-72 text-lg mt-3 text-left">
                     3. 학회원들과 함께 협력하며 자신의 프로젝트를 완성
@@ -139,6 +139,7 @@ const About = () => {
        
     </section>
     <Footer />
+    <Scrollup />
     </div>
   );
 };

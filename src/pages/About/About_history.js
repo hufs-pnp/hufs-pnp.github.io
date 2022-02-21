@@ -3,12 +3,13 @@ import Fade from 'react-reveal/Fade';
 import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
+import Scrollup from '../../components/Scrollup';
 
 const About_history = () => {
   return (
     <div>
         <Header />
-        <div class="mt-40 lg:mt-24">
+        <div class="mt-40 md:mt-24">
             <div className="flex flex-col text-center w-full">
                 <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
                     About
@@ -46,43 +47,42 @@ const About_history = () => {
                 </Link>
             </div>
     </div>
+            <div
+                class="grow border-10-10 border-indigo-400 absolute h-full border z-0"
+                style={{
+                right: '50%',
+                borderRadius: '10%',
+                }}
+            ></div>
+            <div
+                class="grow border-10-10 border-indigo-400 absolute h-full border z-0"
+                style={{
+                left: '50%',
+                borderRadius: '10%',
+                }}
+            ></div>
     <section
       id="about_history"
-      className="text-gray-700 body-font border-t border-gray-200">
+      className="text-gray-700 body-font border-t border-gray-200 z-200 bg-white">
+        <div class="container mx-auto w-full h-full">
+        <div class="relative wrap overflow-hidden p-10 h-full">
             <div
-                class="md:hidden block border-10-10 border-indigo-400 absolute h-full border -z-1"
+                class="grow border-10-10 border-indigo-400 absolute h-full border z-0"
                 style={{
-                right: '90%',
+                right: '50%',
                 borderRadius: '10%',
                 }}
             ></div>
             <div
-                class="md:hidden block border-10-10 border-indigo-400 absolute h-full border -z-1"
+                class="grow border-10-10 border-indigo-400 absolute h-full border z-0"
                 style={{
-                left: '10%',
+                left: '50%',
                 borderRadius: '10%',
                 }}
             ></div>
-
-            <div
-                class="hidden md:block border-10-10 border-indigo-400 absolute h-full border"
-                style={{
-                right: '80%',
-                borderRadius: '10%',
-                }}
-            ></div>
-            <div
-                class="hidden md:block border-10-10 border-indigo-400 absolute h-full border"
-                style={{
-                left: '20%',
-                borderRadius: '10%',
-                }}
-            ></div>
-        <div class="flex justify-center my-4 z-100">
             <Fade bottom>
-                    <div class="container md:w-1/2 w-2/3 h-full">
-                        <div class="relative wrap overflow-hidden h-full">
-                                <div class="order-last mb-8 container rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
+                    <div class="container w-1/2">
+                                <div class="mb-8 bg-white rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2022
                                     </p>
@@ -96,7 +96,7 @@ const About_history = () => {
                                     </p>
                                 </div>
                             
-                                <div class="mb-8 rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
+                                <div class="mb-8 bg-white rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2021
                                     </p>
@@ -110,7 +110,7 @@ const About_history = () => {
                                 </div>
 
 
-                                <div class="mb-8 rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
+                                <div class="mb-8 bg-white rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2020
                                     </p>
@@ -122,11 +122,11 @@ const About_history = () => {
                                     </p>
                                 </div>
                             
-                                <div class="mb-8 rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
+                                <div class="mb-8 bg-white rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2015
                                     </p>
-                                    <h4 class="mb-3 font-bold text-lg md:text-2xl text-left">
+                                    <h4 class="mb-3 font-bold text-lg md:text-xl text-left">
                                         컴퓨터전자시스템공학부 소속
                                     </h4>
                                     <p class="text-xs md:text-base text-gray-500 text-opacity-100">
@@ -134,7 +134,7 @@ const About_history = () => {
                                     </p>
                                 </div>    
 
-                                <div class="mb-8 rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
+                                <div class="mb-8 bg-white rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2012
                                     </p>
@@ -146,19 +146,19 @@ const About_history = () => {
                                     </p>
                                 </div>
 
-                                <div class="mb-8 rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
+                                <div class="mb-8 bg-white rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         ~2011
                                     </p>
                                     <h4 class="mb-3 font-bold text-lg md:text-xl text-left">
                                         하드웨어 중심 활동
                                     </h4>
-                                    <p class="text-xs md:text-base leading-snug text-gray-500 text-opacity-100">
+                                    <p class="text-xs md:text-base text-gray-500 text-opacity-100">
                                         2011년까지 하드웨어를 중심으로 다양한 프로젝트에 참여하여 활동을 진행하였습니다.
                                     </p>
                                 </div>
 
-                                <div class="mb-8 rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
+                                <div class="mb-8 bg-white rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2000
                                     </p>
@@ -169,7 +169,7 @@ const About_history = () => {
                                     </p>
                                 </div>
 
-                                <div class="mb-8 rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
+                                <div class="mb-8 bg-white rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         1999
                                     </p>
@@ -180,13 +180,15 @@ const About_history = () => {
                                         1999년 PnP가 한국외국어대학교 디지털정보공학과소속 학회로 설립되었습니다.
                                     </p>
                                 </div>
-                        </div>
                     </div>
-                
             </Fade>
-        </div>ß
+        
+        </div>
+        </div>
     </section>
+    
     <Footer />
+    <Scrollup />
     </div>
   );
 };

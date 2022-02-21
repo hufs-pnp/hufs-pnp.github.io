@@ -81,11 +81,11 @@ class MakeChart extends Component {
       i = i + 1
     }
     return (
-      <div class="flex flex-row ml-12 mr-20">
+      <div class="flex flex-row justify-center py-2">
         <div class="">
           <Chart
-            width={'500px'}
-            height={'300px'}
+            width={'30vw'}
+            // height={'300px'}
             chartType="PieChart"
             loader={<div>Loading Chart...</div>}
             data={[
@@ -105,8 +105,8 @@ class MakeChart extends Component {
         </div>
         <div class="">
           <Chart
-            width={'500px'}
-            height={'300px'}
+            width={'30vw'}
+            // height={'300px'}
             chartType="PieChart"
             loader={<div>Loading Chart...</div>}
             data={[
@@ -137,8 +137,8 @@ class MakeChart extends Component {
         </div>
         <div class="">
           <Chart
-            width={'500px'}
-            height={'300px'}
+            width={'30vw'}
+            // height={'300px'}
             chartType="PieChart"
             loader={<div>Loading Chart...</div>}
             data={[
