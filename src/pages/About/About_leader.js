@@ -46,7 +46,7 @@ const About_leader = () => {
                 </Link>
                 <Link to="/About_professor">
                   <button className="text-gray-600 bg-white border-b-2 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
-                    교수
+                    지도교수
                   </button>
                 </Link>
             </div>
