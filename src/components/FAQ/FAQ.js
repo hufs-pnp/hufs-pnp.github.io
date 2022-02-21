@@ -34,7 +34,7 @@ const FAQ = () => {
                         }
                     >
                     </a> */}
-                    <button className="text-white bg-indigo-500 border-0 w-1/6 focus:outline-none hover:bg-indigo-600 rounded h-full p-2">
+                    <button className="text-white bg-indigo-500 border-0 w-1/5 focus:outline-none hover:bg-indigo-600 rounded h-10 p-2 text-sm md:text-base">
                             검색
                     </button>
                 </div>
