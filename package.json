@@ -2,7 +2,7 @@
   "name": "pnp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hufs-pnp.github.io/PPEB-introduce",
+  "homepage": "https://hufs-pnp.github.io/",
   "dependencies": {
     "@craco/craco": "^6.4.3",
     "@fortawesome/fontawesome-free": "^5.15.4",
