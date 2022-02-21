@@ -11,7 +11,6 @@ const FAQ = () => {
     const [SearchTerm, setSearchTerm] = useState('');
     
   return (
-    
     <section className="text-gray-800 body-font relative">
     <Header />
     <ParticlesBg type="cobweb" bg={true} />
@@ -23,7 +22,7 @@ const FAQ = () => {
                         Frequently Asked Question
                     </h2>
                     <p className="leading-relaxed mt-2 mb-5 text-gray-600">
-                        PNP FAQ 게시판입니다. 궁금하신내용을 검색해주세요~
+                        PNP FAQ 게시판입니다. 궁금하신 내용을 검색해주세요~
                     </p>
                 <div className="flex-auto flex-shrink-0 space-x-2">
                     <input
@@ -66,10 +65,11 @@ const FAQ = () => {
                     <input
                         className="bg-white rounded border w-2/3 md:w-2/3 border-gray-400 focus:outline-none focus:border-indigo-500 text-xs md:text-base px-2 py-2 mb-4"
                         placeholder="검색어 입력"
-                        
-                        
+                        type="text"
+                        onChange={event=>{
+                            setSearchTerm(event.target.value);
+                        }}
                     />
-                    
                     <button className="text-white bg-indigo-500 border-0 w-1/4 py-2 px-4 mb-4 focus:outline-none hover:bg-indigo-600 rounded text-xs md:text-base">
                         검색
                     </button>
@@ -91,9 +91,9 @@ const FAQ = () => {
             </div>
 
             {FAQDATA.filter((val)=>{
-                if (SearchTerm ==""){
+                if (val.Question.includes(SearchTerm) || val.Answer.includes(SearchTerm)){
                     return val
-                }else if (val.Question.includes(SearchTerm) || val.Answer.includes(SearchTerm)){
+                } else if (SearchTerm ==""){
                     return val
                 }
             }).map((val,key)=>{
