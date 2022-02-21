@@ -1,25 +1,22 @@
 {
   "files": {
-    "main.css": "/PPEB-introduce/static/css/main.85786d32.chunk.css",
-    "main.js": "/PPEB-introduce/static/js/main.24b5a18b.chunk.js",
-    "main.js.map": "/PPEB-introduce/static/js/main.24b5a18b.chunk.js.map",
+    "main.css": "/PPEB-introduce/static/css/main.01522799.chunk.css",
+    "main.js": "/PPEB-introduce/static/js/main.79e9f7ed.chunk.js",
+    "main.js.map": "/PPEB-introduce/static/js/main.79e9f7ed.chunk.js.map",
     "runtime-main.js": "/PPEB-introduce/static/js/runtime-main.9cca8c89.js",
     "runtime-main.js.map": "/PPEB-introduce/static/js/runtime-main.9cca8c89.js.map",
-    "static/js/2.899a8ae1.chunk.js": "/PPEB-introduce/static/js/2.899a8ae1.chunk.js",
-    "static/js/2.899a8ae1.chunk.js.map": "/PPEB-introduce/static/js/2.899a8ae1.chunk.js.map",
+    "static/js/2.27bb4c2c.chunk.js": "/PPEB-introduce/static/js/2.27bb4c2c.chunk.js",
+    "static/js/2.27bb4c2c.chunk.js.map": "/PPEB-introduce/static/js/2.27bb4c2c.chunk.js.map",
     "index.html": "/PPEB-introduce/index.html",
-    "static/css/main.85786d32.chunk.css.map": "/PPEB-introduce/static/css/main.85786d32.chunk.css.map",
-    "static/js/2.899a8ae1.chunk.js.LICENSE.txt": "/PPEB-introduce/static/js/2.899a8ae1.chunk.js.LICENSE.txt",
+    "static/css/main.01522799.chunk.css.map": "/PPEB-introduce/static/css/main.01522799.chunk.css.map",
+    "static/js/2.27bb4c2c.chunk.js.LICENSE.txt": "/PPEB-introduce/static/js/2.27bb4c2c.chunk.js.LICENSE.txt",
     "static/media/2018.d8024e53.png": "/PPEB-introduce/static/media/2018.d8024e53.png",
     "static/media/2019.a6ee5a65.png": "/PPEB-introduce/static/media/2019.a6ee5a65.png",
     "static/media/20202021.c970ac0d.png": "/PPEB-introduce/static/media/20202021.c970ac0d.png",
     "static/media/2022.028dedc4.png": "/PPEB-introduce/static/media/2022.028dedc4.png",
-    "static/media/ai.be30da9c.png": "/PPEB-introduce/static/media/ai.be30da9c.png",
     "static/media/bob.bfe38136.jpg": "/PPEB-introduce/static/media/bob.bfe38136.jpg",
     "static/media/MemberCounter.css": "/PPEB-introduce/static/media/counter.3f3e7e4d.jpg",
-    "static/media/data.05ae589a.png": "/PPEB-introduce/static/media/data.05ae589a.png",
     "static/media/do11.a54c12cd.jpg": "/PPEB-introduce/static/media/do11.a54c12cd.jpg",
-    "static/media/game.1d1ba87a.png": "/PPEB-introduce/static/media/game.1d1ba87a.png",
     "static/media/heoseongil.d082aabb.png": "/PPEB-introduce/static/media/heoseongil.d082aabb.png",
     "static/media/junctionx.0d7485ad.png": "/PPEB-introduce/static/media/junctionx.0d7485ad.png",
     "static/media/kimjuwon.5389fd94.png": "/PPEB-introduce/static/media/kimjuwon.5389fd94.png",
@@ -34,13 +31,12 @@
     "static/media/recruit.3114fa7c.svg": "/PPEB-introduce/static/media/recruit.3114fa7c.svg",
     "static/media/school.1c0889e0.png": "/PPEB-introduce/static/media/school.1c0889e0.png",
     "static/media/seongjaerok.9281ceef.png": "/PPEB-introduce/static/media/seongjaerok.9281ceef.png",
-    "static/media/success.341a64bb.png": "/PPEB-introduce/static/media/success.341a64bb.png",
-    "static/media/web.7b33c49b.png": "/PPEB-introduce/static/media/web.7b33c49b.png"
+    "static/media/success.341a64bb.png": "/PPEB-introduce/static/media/success.341a64bb.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9cca8c89.js",
-    "static/js/2.899a8ae1.chunk.js",
-    "static/css/main.85786d32.chunk.css",
-    "static/js/main.24b5a18b.chunk.js"
+    "static/js/2.27bb4c2c.chunk.js",
+    "static/css/main.01522799.chunk.css",
+    "static/js/main.79e9f7ed.chunk.js"
   ]
 }
