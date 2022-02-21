@@ -13,7 +13,7 @@ const About_leader = () => {
   return (
     <div>
         <Header />
-        <div class="mt-40 lg:mt-24">
+        <div class="mt-40 md:mt-24">
             <div className="flex flex-col text-center w-full">
               <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
                 About

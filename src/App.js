@@ -9,7 +9,7 @@ import About_professor from './pages/About/About_professor';
 import Achievements from './pages/Achievement/Achievements';
 import Members from './pages/Members/Members';
 import Recruit from './pages/Recruit';
-import FAQ from './pages/FAQ';
+import FAQ from './pages/FAQ/FAQ';
 import Blog from './pages/Blog/Blog';
 import Graduates from './pages/Members/Graduate/Graduates'
 import Blog_web from './pages/Blog/Blog_web';
