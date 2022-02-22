@@ -20,7 +20,7 @@ const Blog_web = () => {
               Blog
             </h2>
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
-              Blog
+              블로그
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base mt-3 -mb-5">
               PnP 사람들의 Blog를 소개합니다.

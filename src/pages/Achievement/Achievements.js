@@ -27,7 +27,7 @@ const Achievements = () => {
     <div>
       <Header />
         <div class='fixed inset-x-0 top-0 left-0 z-40 right-0'>
-        <div class="bg-white md:p-5 lg:p-5 p-7 md:mt-20 mt-32">
+        <div class="bg-white md:p-8 p-7 md:mt-16 mt-32">
           <div className="flex flex-col text-center w-full">
             <h2 className="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">
               Achievements Page
