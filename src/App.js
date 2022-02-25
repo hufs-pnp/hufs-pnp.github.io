@@ -16,7 +16,7 @@ import Blog_web from './pages/Blog/Blog_web';
 import Blog_data from './pages/Blog/Blog_data';
 import Blog_ai from './pages/Blog/Blog_ai';
 import Blog_game from './pages/Blog/Blog_game';
-import RouteChangeTracker from 'components/RouteChangeTracker';
+import RouteChangeTracker from './components/RouteChangeTracker';
 
 
 const App = () => {
