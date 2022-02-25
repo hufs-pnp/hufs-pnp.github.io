@@ -74,7 +74,7 @@ class ShowMember extends Component {
                                 <img
                                   class="h-8 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                                   alt="google"
-                                  src="images/icon/github-brands.svg"
+                                  src={process.env.PUBLIC_URL+"/"+"images/icon/github-brands.svg"}
                                   onClick={() => window.open(Data.github, '_blank')}
                                   title="URL_githb"
                                 ></img>
@@ -87,7 +87,7 @@ class ShowMember extends Component {
                                 <img
                                   class="h-8 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                                   alt="google"
-                                  src="images/icon/spinner-solid.svg"
+                                  src={process.env.PUBLIC_URL+"/"+"images/icon/spinner-solid.svg"}
                                   onClick={() => alert('empty_github_URL')}
                                   title="empty_githb_URL"
                                 ></img>
@@ -100,7 +100,7 @@ class ShowMember extends Component {
                                 <img
                                   class="h-8 ml-2 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                                   alt="google"
-                                  src="images/icon/house-user-solid.svg"
+                                  src={process.env.PUBLIC_URL+"/"+"images/icon/house-user-solid.svg"}
                                   onClick={() => window.open(Data.blog, '_blank')}
                                   title="URL_blog"
                                 ></img>
@@ -113,7 +113,7 @@ class ShowMember extends Component {
                                 <img
                                   class="w-8 ml-2 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                                   alt="google"
-                                  src="images/icon/spinner-solid.svg"
+                                  src={process.env.PUBLIC_URL+"/"+"images/icon/spinner-solid.svg"}
                                   onClick={() => alert('empty_blog_URL')}
                                   title="empty_blog_URL"
                                 ></img>
@@ -126,7 +126,7 @@ class ShowMember extends Component {
                                 <img
                                   class="h-8 ml-2 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                                   alt="google"
-                                  src="images/icon/envelope-solid.svg"
+                                  src={process.env.PUBLIC_URL+"/"+"images/icon/envelope-solid.svg"}
                                   onClick={() => alert('email: ' + Data.email)}
                                   title={Data.email}
                                 ></img>
@@ -139,7 +139,7 @@ class ShowMember extends Component {
                                 <img
                                   class="w-8 h-8 ml-2 transform hover:scale-110 motion-reduce:transform-none cursor-pointer"
                                   alt="google"
-                                  src="images/icon/spinner-solid.svg"
+                                  src={process.env.PUBLIC_URL+"/"+"images/icon/spinner-solid.svg"}
                                   onClick={() => alert('empty_email')}
                                   title="empty_email"
                                 ></img>

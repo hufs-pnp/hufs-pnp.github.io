@@ -22,8 +22,8 @@ const BlogItem = () => {
             <img
               alt="cover"
               className="absolute inset-0 h-full w-full object-cover"
-              src={blog.imageurl}
-              key={blog.imageurl}
+              src={process.env.PUBLIC_URL+'/'+blog.imageurl}
+              key={process.env.PUBLIC_URL+'/'+blog.imageurl}
             />
           </div>
           <div className="m-5 xl:h-32">
