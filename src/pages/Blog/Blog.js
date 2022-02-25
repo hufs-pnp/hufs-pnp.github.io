@@ -29,7 +29,7 @@ const Blog = () => {
           </div>
         </div>
         <div className="absolute z-50 sticky top-32 flex flex-col text-xs sm:static sm:text-base sm:flex-row place-content-center text-center">
-          <div className="sm:hidden self-center bg-white w-full py-2 z-50">
+          <div className="sm:hidden self-center bg-white w-full py-2 z-50 border-b-2 border-indigo-400 ">
             <button
               onClick={() => setMenuToggle(!menuToggle)}
             >
