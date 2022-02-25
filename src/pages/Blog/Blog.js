@@ -29,7 +29,7 @@ const Blog = () => {
           </div>
         </div>
         <div className="absolute z-50 sticky top-32 flex flex-col text-xs sm:static sm:text-base sm:flex-row place-content-center text-center">
-          <div className="sm:hidden self-center bg-yellow-200 w-full my-1 z-50">
+          <div className="sm:hidden self-center bg-white w-full py-2 z-50">
             <button
               onClick={() => setMenuToggle(!menuToggle)}
             >
@@ -68,7 +68,7 @@ const Blog = () => {
           </div>
           <div className={classNames("md:block", { hidden: !menuToggle })}>
             <Link to="/Blog">
-              <button className="w-full sm:w-auto text-gray-600 bg-black border-b-2 border-indigo-400 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
+              <button className="w-full sm:w-auto text-gray-600 bg-white border-b-2 border-indigo-400 py-2 px-8 hover:text-indigo-600 hover:border-indigo-600 text-lg">
                 ALL
               </button>
             </Link>
