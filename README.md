@@ -1,9 +1,9 @@
 # PNP WEB PAGE
 
-- Update Version 0.91
+- Update Version 1.0
 
-  - 날짜 : 2022. 02. 19
-  - 내용 : Merge with taewoo's repo
+  - 날짜 : 2022. 02. 23
+  - 내용 : Publish websites
   - 작성자 : Seongil Heo
 
 - 팀장 : 이지석
@@ -65,6 +65,12 @@ yarn add react-router-dom@5.2 --save ## npm install react-router-dom --save
 yarn add react-google-charts ## npm install react-google-charts
 ```
 
+- react-ga 를 다운로드 받아주세요!
+
+```bash
+yarn add react-ga ## npm install react-ga
+```
+
 3. 메인 페이지 업로드 공간
 
 - src > components > 페이지이름 폴더
@@ -86,7 +92,7 @@ yarn add react-google-charts ## npm install react-google-charts
 
 - 프로젝트를 git clone을 하실 때, 개인 계정에 fork한 뒤 다시 업로드를 하는 방식을 이용해주세요.
 - 버전 업데이트 사항은 소수점 단위를 일씩 증가 시키고, 본인이 한 내용을 추가하여 어떤 내용이 업데이트 되었는지 확인할 수 있도록 해주세요
-- 업데이트 내용을 수정하시기 전에 이전 버전 업데이트 내용은 아래에 `Last Update`에 `Versiton 1.X - 내용 Update by 작성자이름` 순으로 정리해주세요.
+- 업데이트 내용을 수정하시기 전에 이전 버전 업데이트 내용은 아래에 `Last Update`에 `Versiton X.X - 내용 Update by 작성자이름` 순으로 정리해주세요.
 
 ## Last Updates
 
@@ -98,6 +104,9 @@ yarn add react-google-charts ## npm install react-google-charts
 - Version 0.6 PnP Web site Achievement Page was Uploaded by Taewoo Kim
 - Version 0.7 PnP Web site Blog Page was Uploaded by Jiseok Lee
   - Version 0.71 Fix unloaded images in Blog Page by Seongil Heo
+- Version 0.8 Merge with taewoo's repo by Seongil Heo
+- Version 0.9 Update Feed back by all developers
+- Version 1.0 Website was Pulished by Seongil Heo
 
 `yarn을 사용하시는 분이시고, 관련 명령어가 익숙치 않은 부분을 아래 명령어를 참고해주시면 됩니다.`
 

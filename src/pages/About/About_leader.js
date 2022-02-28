@@ -52,7 +52,7 @@ const About_leader = () => {
             </div>
         </div>
       <section className= "border-t border-gray-200 md:mg-32 lg:mb-0">
-      <div className="flex flex-wrap justify-center gap-4">
+      <div className="flex flex-wrap justify-center gap-4 mx-4 md:mx-0">
       <Fade bottom>
       <div className="flex flex-col text-center md:w-1/3 lg:w-1/4  mb-8 mt-12">
           <div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
@@ -64,9 +64,9 @@ const About_leader = () => {
               />
               </div>
               <div class="p-8">
-                <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">2022</h2>
-                <h1 class="sm:text-2xl font-medium title-font mb-4 text-fuchsia-900">김태우</h1>
-                <p className="mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
+                <h2 class="text-indigo-500 text-sm lg:text-base mb-1">2022</h2>
+                <h1 class="font-medium text-lg md:text-xl lg:text-2xl text-gray-900">김태우</h1>
+                <p className="mx-auto leading-relaxed mt-3 text-justify-center text-xs md:text-sm lg:text-base lg:whitespace-nowrap">
                 컴퓨터전자시스템공학부 17학번
                 <br/>이메일 : epiclog@naver.com
                 </p>
@@ -84,9 +84,9 @@ const About_leader = () => {
               />
               </div>
               <div class="p-8">
-                <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">2020-2021</h2>
-                <h1 class="sm:text-2xl font-medium title-font mb-4 text-gray-900">허성일</h1>
-                <p className="mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
+                <h2 class="text-indigo-500 text-sm lg:text-base mb-1">2020-2021</h2>
+                <h1 class="font-medium text-lg md:text-xl lg:text-2xl text-gray-900">허성일</h1>
+                <p className="mx-auto leading-relaxed mt-3 text-justify-center text-xs md:text-sm lg:text-base lg:whitespace-nowrap">
                 컴퓨터전자시스템공학부 16학번
                 <br/>이메일 : tjddlf101@gmail.com
                 </p>
@@ -105,9 +105,9 @@ const About_leader = () => {
               />
               </div>
               <div class="p-8">
-                <h2 class="text-xs text-indigo-500 tracking-widest font-medium title-font mb-1">2019</h2>
-                <h1 class="sm:text-2xl font-medium title-font mb-4 text-gray-900">박기웅</h1>
-                <p className="mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
+                <h2 class="text-indigo-500 text-sm lg:text-base mb-1">2019</h2>
+                <h1 class="font-medium text-lg md:text-xl lg:text-2xl text-gray-900">박기웅</h1>
+                <p className="mx-auto leading-relaxed mt-3 text-justify-center text-xs md:text-sm lg:text-base lg:whitespace-nowrap">
                 컴퓨터전자시스템공학부 16학번
                 <br/>이메일 : psh090953@gmail.com
                 </p>
@@ -126,11 +126,11 @@ const About_leader = () => {
               />
               </div>
               <div class="p-8">
-                <h2 class="text-indigo-500 tracking-widest font-medium title-font mb-1">2018</h2>
-                <h1 class="font-medium title-font mb-4 text-gray-900">정희택</h1>
-                <p className="mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
+                <h2 class="text-indigo-500 text-sm lg:text-base mb-1">2018</h2>
+                <h1 class="font-medium text-lg md:text-xl lg:text-2xl text-gray-900">정희택</h1>
+                <p className="mx-auto leading-relaxed mt-3 text-justify-center text-xs md:text-sm lg:text-base lg:whitespace-nowrap">
                 디지털정보공학과 12학번
-                <br/>이메일 : XXXXX@gmail.com
+                <br/>이메일 : chung1876@naver.com
                 </p>
               </div>
             </div>
