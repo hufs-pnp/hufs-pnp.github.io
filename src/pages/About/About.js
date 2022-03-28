@@ -68,7 +68,7 @@ const About = () => {
               </div>
               <div class="p-8">
                 <h2 class="text-indigo-500 tracking-widest font-medium title-font mb-1">Introduction</h2>
-                <h1 class="font-medium title-font mb-4 text-gray-900">PnP 학회(Passion & Pinoneer)</h1>
+                <h1 class="font-medium title-font mb-4 text-gray-900">PnP 학회(Passion & Pioneer)</h1>
                 <p className="lg:w-4/5 mx-auto leading-relaxed text-base mt-3 text-justify">
                   PnP는 Passion & Pioneer, “열정을 가진 자들이 모여 세상을 개척한다”라는 의미를 가지고 있습니다. 1999년 디지털정보공학과 소속 학회로 설립되어 학부 개편에 따라 현재
                   컴퓨터공학부에 소속되어 있는 학술 학회입니다.컴퓨터공학부 학부생들이 개발자로 성장하기 위해 자신의 목표를 찾고,같은 목표를 가지고 있는 학우들과 함께 학습 및 연구를 통해 자신의
