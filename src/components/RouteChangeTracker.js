@@ -2,7 +2,6 @@ import React from 'react'
 import { withRouter } from 'react-router-dom';
 import ReactGA from "react-ga";
 import ReactGA4 from 'react-ga4';
-import gtag from 'react-ga4/src/gtag';
 const RouteChangeTracker = ({ history }) => {
 
     history.listen((location, action) => {

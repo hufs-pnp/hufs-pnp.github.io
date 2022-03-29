@@ -2,7 +2,7 @@
   "name": "pnp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://hufs-pnp.github.io/",
+  "homepage": "./",
   "dependencies": {
     "@craco/craco": "^6.4.3",
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -22,6 +22,7 @@
     "react-google-charts": "^4.0.0",
     "react-reveal": "^1.2.2",
     "react-router-dom": "5.2",
+    "react-router-sitemap": "^1.2.0",
     "react-scripts": "4.0.3",
     "react-visibility-sensor": "^5.1.1",
     "web-vitals": "^1.1.2"
@@ -31,8 +32,9 @@
     "build": "craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run sitemap",
+    "deploy": "gh-pages -d build",
+    "sitemap": "babel-node /src/sitemaGenerator.js"   
   },
   "eslintConfig": {
     "extends": [
@@ -54,6 +56,10 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
     "craco-alias": "^3.0.1",
     "postcss": "^7.0.36",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.14"
