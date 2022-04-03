@@ -3,7 +3,6 @@ import React from 'react';
 import ParticlesBg from 'particles-bg';
 import bannerlogo from '../../static/images/logo_black.png';
 import { Link } from 'react-router-dom';
-import Fade from 'react-reveal/Fade';
 
 const Main = () => {
     return (
