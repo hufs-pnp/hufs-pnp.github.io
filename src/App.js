@@ -17,6 +17,7 @@ import Blog_data from './pages/Blog/Blog_data';
 import Blog_ai from './pages/Blog/Blog_ai';
 import Blog_game from './pages/Blog/Blog_game';
 import RouteChangeTracker from './components/RouteChangeTracker';
+import NotFound from './pages/NotFound/NotFound'
 
 
 const App = () => {
@@ -38,6 +39,7 @@ const App = () => {
       <Route path="/Blog_data" component={Blog_data} />
       <Route path="/Blog_ai" component={Blog_ai} />
       <Route path="/Blog_game" component={Blog_game} />
+      <Route path="*" component={NotFound} />
       <RouteChangeTracker />
     </div>
   )
