@@ -74,7 +74,7 @@ for i in tqdm.tqdm(range(2,num+2)):
     if inst["blog"] == '':
         inst["blog"] = 'none'
     driver.implicitly_wait(5)
-    inst["email"]= driver.find_element(By.XPATH,'//*[@id="notion-app"]/div/div[1]/div/div[2]/div[2]/div/div[5]/div/div/div[1]/div[3]/div['+str(i)+']/div[6]/div[1]').text
+    inst["email"]= driver.find_element(By.XPATH,'//*[@id="notion-app"]/div/div[1]/div/div[2]/div[2]/div/div[5]/div/div/div[1]/div[3]/div['+str(i)+']/div[6]/div[1]/span').text
     if inst["email"] == '':
         inst["email"] = 'none'
     driver.implicitly_wait(5)
