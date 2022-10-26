@@ -11,7 +11,7 @@ import Members from './pages/Members/Members';
 import Recruit from './pages/Recruit';
 import FAQ from './pages/FAQ/FAQ';
 import Blog from './pages/Blog/Blog';
-import Graduates from './pages/Members/Graduate/Graduates'
+import Graduate from './pages/Members/Graduate/Graduate'
 import Blog_web from './pages/Blog/Blog_web';
 import Blog_data from './pages/Blog/Blog_data';
 import Blog_ai from './pages/Blog/Blog_ai';
@@ -32,7 +32,7 @@ const App = () => {
         <Route path="/about_professor" component={About_professor} />
         <Route path="/achievements" component={Achievements} />
         <Route path="/members" component={Members} />
-        <Route path="/graduates" component={Graduates} />
+        <Route path="/graduate" component={Graduate} />
         <Route path="/recruit" component={Recruit} />
         <Route path="/FAQ" component={FAQ} />
         <Route path="/Blog" component={Blog} />

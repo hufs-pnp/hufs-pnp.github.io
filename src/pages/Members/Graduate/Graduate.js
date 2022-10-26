@@ -7,7 +7,7 @@ import Band from './Band';
 import Footer from '../../../components/Footer';
 import Scrollup from '../../../components/Scrollup';
 
-class Graduates extends Component {
+class Graduate extends Component {
 
   render() {
     return(
@@ -25,4 +25,4 @@ class Graduates extends Component {
     )
   }
 }
-export default Graduates;
+export default Graduate;

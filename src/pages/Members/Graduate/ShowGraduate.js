@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import graduatesData from './graduatesData.json';
+import graduatesData from './graduateData.json';
 
 class ShowMember extends Component {
   constructor(props) {
