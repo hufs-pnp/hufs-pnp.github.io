@@ -45,7 +45,7 @@ print("비밀번호 입력합니다.")
 time.sleep(15)
 
 # 갯수
-num = driver.find_element(By.XPATH,'//*[@id="notion-app"]/div/div[1]/div/div[2]/div[2]/div/div[5]/div/div/div[1]/div[5]/div[1]/div/span[2]').text
+num = driver.find_element(By.XPATH,'//*[@id="notion-app"]/div/div[1]/div/div[2]/div[2]/div/div[5]/div/div/div[1]/div[6]/div[1]/div/span[2]').text
 driver.implicitly_wait(120)
 num = int(num)
 print("페이지에 성공적으로 접속했습니다.")

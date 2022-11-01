@@ -92,8 +92,7 @@
 		"email": "epiclog@hufs.ac.kr",
 		"Team": [
 			"학회장",
-			"캡스톤",
-			"게임"
+			"Python"
 		],
 		"profileImage": " "
 	},
@@ -371,7 +370,7 @@
 		"blog": "https://velog.io/@jongbeensong",
 		"email": "1041489@gmail.com",
 		"Team": [
-			"none"
+			"AI"
 		],
 		"profileImage": " "
 	},
@@ -380,10 +379,10 @@
 		"grade": "3",
 		"classof": "20학번",
 		"github": "https://github.com/Baek-Geonwoo",
-		"blog": "none",
+		"blog": "https://velog.io/@phlox3959",
 		"email": "phlox3959@gmail.com",
 		"Team": [
-			"none"
+			"AI"
 		],
 		"profileImage": " "
 	},
@@ -396,6 +395,18 @@
 		"email": "yw9142@gmail.com",
 		"Team": [
 			"none"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "안진혁",
+		"grade": "3",
+		"classof": "18학번",
+		"github": "https://github.com/plas318",
+		"blog": "none",
+		"email": "plas3180g@gmail.com",
+		"Team": [
+			"Web"
 		],
 		"profileImage": " "
 	},
@@ -429,10 +440,11 @@
 		"grade": "3",
 		"classof": "18학번",
 		"github": "https://github.com/seungmin8606",
-		"blog": "none",
+		"blog": "https://velog.io/@seungmin8606",
 		"email": "lsm8606@gmail.com",
 		"Team": [
-			"none"
+			"게임",
+			"알고리즘"
 		],
 		"profileImage": " "
 	},
@@ -493,7 +505,7 @@
 		"blog": "https://yjyjy99.tistory.com/",
 		"email": "enqu724@gmail.com",
 		"Team": [
-			"Data"
+			"AI"
 		],
 		"profileImage": " "
 	},
@@ -529,7 +541,7 @@
 		"blog": "https://github.com/SongGaHyeon",
 		"email": "gahyunsong@hufs.ac.kr, gahyunsong@naver.com",
 		"Team": [
-			"none"
+			"알고리즘"
 		],
 		"profileImage": " "
 	},
@@ -577,7 +589,7 @@
 		"blog": "none",
 		"email": "kxxxhybn@gmail.com",
 		"Team": [
-			"none"
+			"Web"
 		],
 		"profileImage": " "
 	},
@@ -685,7 +697,7 @@
 		"blog": "none",
 		"email": "junyuk0205@naver.com",
 		"Team": [
-			"none"
+			"알고리즘"
 		],
 		"profileImage": " "
 	},
@@ -741,11 +753,11 @@
 		"name": "정종원",
 		"grade": "1",
 		"classof": "22학번",
-		"github": "none",
+		"github": "https://github.com/LENCEOO",
 		"blog": "none",
 		"email": "supper1470@gmail.com",
 		"Team": [
-			"none"
+			"Web"
 		],
 		"profileImage": " "
 	},
@@ -916,6 +928,18 @@
 		"Team": [
 			"AI",
 			"Data"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "차정민",
+		"grade": "1",
+		"classof": "22학번",
+		"github": "none",
+		"blog": "none",
+		"email": "kevin011214@hufs.ac.kr",
+		"Team": [
+			"보안"
 		],
 		"profileImage": " "
 	},
