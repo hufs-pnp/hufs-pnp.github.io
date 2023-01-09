@@ -1,5 +1,6 @@
 # PNP WEB PAGE
 
+- 홈페이지 링크 : [한국외대학술학회 PnP](http://www.hufspnp.com)
 - Update Version 1.0
 
   - 날짜 : 2022. 02. 23
