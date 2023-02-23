@@ -4,13 +4,13 @@ const members = [
     {
 		name: "배준성",
 		classOf: "15학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "김명수",
 		classOf: "17학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
@@ -34,7 +34,7 @@ const members = [
 	{
 		name: "김현주",
 		classOf: "17학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
@@ -58,7 +58,7 @@ const members = [
 	{
 		name: "오영근",
 		classOf: "19학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
@@ -70,7 +70,7 @@ const members = [
 	{
 		name: "박소연",
 		classOf: "19학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
@@ -106,31 +106,31 @@ const members = [
 	{
 		name: "이정민",
 		classOf: "20학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "최준혁",
 		classOf: "20학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "이서영",
 		classOf: "20학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "임지선",
 		classOf: "20학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "이주윤",
 		classOf: "20학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
@@ -196,7 +196,7 @@ const members = [
 	{
 		name: "안진혁",
 		classOf: "18학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
@@ -238,7 +238,7 @@ const members = [
 	{
 		name: "이서화",
 		classOf: "21학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
@@ -256,7 +256,7 @@ const members = [
 	{
 		name: "안혜련",
 		classOf: "21학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
@@ -286,31 +286,31 @@ const members = [
 	{
 		name: "강효빈",
 		classOf: "21학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "강도훈",
 		classOf: "21학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "이채원",
 		classOf: "21학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "오세창",
 		classOf: "21학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "이성준",
 		classOf: "21학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
@@ -334,31 +334,31 @@ const members = [
 	{
 		name: "정보미",
 		classOf: "21학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "임준혁",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "박의민",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "노유신",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "김승주",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
@@ -370,13 +370,13 @@ const members = [
 	{
 		name: "정종원",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "허태수",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
@@ -388,31 +388,31 @@ const members = [
 	{
 		name: "송경환",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "서정훈",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "박지훈",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "박세현",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "박우승",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
@@ -424,49 +424,49 @@ const members = [
 	{
 		name: "임초현",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "심규빈",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "김민준",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "전세은",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "이상연",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "태유빈",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "차정민",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 		profileImage: ''
 	},
 	{
 		name: "이건우",
 		classOf: "22학번",
-		blogURL: "none",
+		blogURL: '',
 
 		profileImage: ''
 	},
