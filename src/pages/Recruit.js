@@ -26,7 +26,7 @@ const Recruit = () => {
                         </p>
                         <a
                             className="text-center sm:text-left"
-                            href="https://forms.gle/K4ti5Cy42sNNrCAu8"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSdiX396mdgUn6la6y8mJKevGjkxMaxzi7xSu8-CGNQdeSVbyw/viewform?usp=share_link"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -72,14 +72,16 @@ const Recruit = () => {
                                         <div class="order-1 w-5/12"></div>
                                         <div class="order-1 w-5/12 px-1 py-4 text-right">
                                             <p class="mb-3 text-base text-indigo-500">
-                                                02.21 (월) ~ 03.11 (금)
+                                                03.15 (수) ~ 03.19 (일)
                                             </p>
                                             <h4 class="mb-3 font-bold text-lg md:text-2xl">
                                                 지원서 제출
                                             </h4>
                                             <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
-                                                약 3주간 학회원 모집이
-                                                진행됩니다.
+                                                약 5일간 학회원 모집이 진행됩니다.
+                                            </p>
+                                            <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
+                                                (지원자 수에 따라 기간이 1~2일 변동 될 수도 있습니다.)
                                             </p>
                                         </div>
                                     </div>
@@ -87,7 +89,7 @@ const Recruit = () => {
                                         <div class="order-1 w-5/12"></div>
                                         <div class="order-1  w-5/12 px-1 py-4 text-left">
                                             <p class="mb-3 text-base text-indigo-500">
-                                                03.11 (금)~
+                                                03.20(월) ~ 03.24(금)
                                             </p>
                                             <h4 class="mb-3 font-bold text-lg md:text-2xl">
                                                 면접
@@ -96,21 +98,28 @@ const Recruit = () => {
                                                 시간, 장소 등 세부 사항은 개인
                                                 이메일로 보내드립니다.
                                             </p>
+                                            <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
+                                                (지원자 수에 따라 기간이 1~2일 변동 될 수도 있습니다.)
+                                            </p>
                                         </div>
                                     </div>
                                     <div class="mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                                         <div class="order-1 w-5/12"></div>
                                         <div class="order-1 w-5/12 px-1 py-4 text-right">
                                             <p class="mb-3 text-base text-indigo-500">
-                                                03.18 (금)
+                                                03.25(토) ~ 03.26(일)
                                             </p>
                                             <h4 class="mb-3 font-bold text-lg md:text-2xl">
                                                 최종 합격자 안내
                                             </h4>
                                             <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
-                                                최종 합격여부를 이메일로
-                                                안내드립니다. 합격자는 활동 관련
-                                                사항을 받아보실 수 있습니다.
+                                                최종 합격여부를 이메일로 안내드립니다. 
+                                            </p>
+                                            <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
+                                                합격자는 활동 관련 사항을 받아보실 수 있습니다.
+                                            </p>
+                                            <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
+                                                (지원자 수에 따라 기간이 1~2일 변동 될 수도 있습니다.)
                                             </p>
                                         </div>
                                     </div>
@@ -118,7 +127,7 @@ const Recruit = () => {
                                         <div class="order-1 w-5/12"></div>
                                         <div class="order-1  w-5/12 px-1 py-4">
                                             <p class="mb-3 text-base text-indigo-500">
-                                                03.21 (월) ~
+                                                03.27 (월) ~
                                             </p>
                                             <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">
                                                 PnP 활동 시작
