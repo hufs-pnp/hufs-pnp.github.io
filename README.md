@@ -37,7 +37,11 @@ git clone #본인의 fork된 프로젝트 url
 1. npm이나 yarn을 사용해서 필수 모듈들을 설치합니다.
 
 ```bash
-yarn ## or npm install
+npm install -D tailwindcss ## or npm install
+npx tailwindcss init 
+```
+```bash
+yarn add react-router-dom@5.2 --save ## npm install react-router-dom --save
 ```
 
 2. npm이나 yarn을 사용해서 실행합니다.
@@ -46,7 +50,8 @@ yarn ## or npm install
 yarn start ## or npm start
 ```
 
-3. 오류가 생길시
+
+4. 오류가 생길시
 
 - craco가 설치가 되지 않은 상태라서 문제가 생겼을 수도 있습니다. 아래와 같은 명령어를 입력해보세요
 
