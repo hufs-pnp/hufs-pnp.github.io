@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https://www.hufspnp.com/</loc> </url>
-<url> <loc>https://www.hufspnp.com/</loc> </url>
-<url> <loc>https://www.hufspnp.com/about</loc> </url>
-<url> <loc>https://www.hufspnp.com/about_history</loc> </url>
-<url> <loc>https://www.hufspnp.com/about_leader</loc> </url>
-<url> <loc>https://www.hufspnp.com/about_activity</loc> </url>
-<url> <loc>https://www.hufspnp.com/about_professor</loc> </url>
-<url> <loc>https://www.hufspnp.com/achievements</loc> </url>
-<url> <loc>https://www.hufspnp.com/members</loc> </url>
-<url> <loc>https://www.hufspnp.com/graduates</loc> </url>
-<url> <loc>https://www.hufspnp.com/recruit</loc> </url>
-<url> <loc>https://www.hufspnp.com/FAQ</loc> </url>
-<url> <loc>https://www.hufspnp.com/Blog</loc> </url>
-<url> <loc>https://www.hufspnp.com/Blog_web</loc> </url>
-<url> <loc>https://www.hufspnp.com/Blog_data</loc> </url>
-<url> <loc>https://www.hufspnp.com/Blog_ai</loc> </url>
-<url> <loc>https://www.hufspnp.com/Blog_game</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/about</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/about_history</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/about_leader</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/about_activity</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/about_professor</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/achievements</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/members</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/graduates</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/recruit</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/FAQ</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/Blog</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/Blog_web</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/Blog_data</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/Blog_ai</loc> </url>
+<url> <loc>https://hufs-pnp.github.io/Blog_game</loc> </url>
 </urlset>

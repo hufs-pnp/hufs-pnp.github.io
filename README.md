@@ -56,7 +56,7 @@ yarn start ## or npm start
 - craco가 설치가 되지 않은 상태라서 문제가 생겼을 수도 있습니다. 아래와 같은 명령어를 입력해보세요
 
 ```bash
-yarn add @craco/craco ## npm install @craco/craco
+yarn add @craco/craco@5.9.0 ## npm install @craco/craco
 ```
 
 - 페이지 이동이안되거나 라우터가 제대로 작동하지 않거나 `react-router-dom`에 관해서 문제가 생길 경우 아래 명령어를 실행해보세요.

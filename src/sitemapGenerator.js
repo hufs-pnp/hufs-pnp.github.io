@@ -8,7 +8,7 @@ require("babel-register")({
   function generateSitemap() {
       return (
         new Sitemap(router)
-            .build("https://www.hufspnp.com") // 여러분의 도메인 이름으로 변경해주세요.
+            .build("https://hufs-pnp.github.io/") // 여러분의 도메인 이름으로 변경해주세요.
             .save("./public/sitemap.xml") // sitemap.xml 파일이 생성될 위치입니다.
       );
   }
