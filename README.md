@@ -29,7 +29,7 @@
 1. git을 사용해서 다운로드를 진행합니다.
 
 ```bash
-git clone #본인의 fork된 프로젝트 url
+git clone https://github.com/hufs-pnp/hufs-pnp.github.io.git
 ```
 
 #### 실행
@@ -37,12 +37,23 @@ git clone #본인의 fork된 프로젝트 url
 1. npm이나 yarn을 사용해서 필수 모듈들을 설치합니다.
 
 ```bash
-npm install -D tailwindcss ## or npm install
+npm install -D tailwindcss@2.2.14 ## or yarn add
 npx tailwindcss init 
+
 ```
 ```bash
 yarn add react-router-dom@5.2 --save ## npm install react-router-dom --save
 ```
+```bash
+npm install postcss@7.0.36 # yarn add
+```
+```bash
+yarn add @craco/craco@5.9.0 ## npm install @craco/craco
+```
+```bash
+yarn add gh-pages --save-dev ##또는 npm install gh-pages --save-dev
+```
+
 
 2. npm이나 yarn을 사용해서 실행합니다.
 
@@ -51,19 +62,7 @@ yarn start ## or npm start
 ```
 
 
-4. 오류가 생길시
-
-- craco가 설치가 되지 않은 상태라서 문제가 생겼을 수도 있습니다. 아래와 같은 명령어를 입력해보세요
-
-```bash
-yarn add @craco/craco@5.9.0 ## npm install @craco/craco
-```
-
-- 페이지 이동이안되거나 라우터가 제대로 작동하지 않거나 `react-router-dom`에 관해서 문제가 생길 경우 아래 명령어를 실행해보세요.
-
-```bash
-yarn add react-router-dom@5.2 --save ## npm install react-router-dom --save
-```
+4. 오류가 생길
 
 - react-google-charts를 다운로드 받아주세요!
 
