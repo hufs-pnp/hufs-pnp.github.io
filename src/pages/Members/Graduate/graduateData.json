@@ -475,6 +475,11 @@
 		"classofOrder": 2015
 	},
 	{
+		"name": "배준성",
+		"classof": "15학번",
+		"classofOrder": 2015
+	},
+	{
 		"name": "오신행",
 		"classof": "15학번",
 		"classofOrder": 2015
@@ -521,6 +526,11 @@
 	},
 	{
 		"name": "정동현",
+		"classof": "16학번",
+		"classofOrder": 2016
+	},
+	{
+		"name": "허성일",
 		"classof": "16학번",
 		"classofOrder": 2016
 	},
@@ -575,7 +585,37 @@
 		"classofOrder": 2016
 	},
 	{
+		"name": "김석윤",
+		"classof": "16학번",
+		"classofOrder": 2016
+	},
+	{
 		"name": "김채현",
+		"classof": "17학번",
+		"classofOrder": 2017
+	},
+	{
+		"name": "전승현",
+		"classof": "17학번",
+		"classofOrder": 2017
+	},
+	{
+		"name": "원동현",
+		"classof": "17학번",
+		"classofOrder": 2017
+	},
+	{
+		"name": "김현주",
+		"classof": "17학번",
+		"classofOrder": 2017
+	},
+	{
+		"name": "김태우",
+		"classof": "17학번",
+		"classofOrder": 2017
+	},
+	{
+		"name": "김명수",
 		"classof": "17학번",
 		"classofOrder": 2017
 	},
@@ -603,5 +643,100 @@
 		"name": "최정민",
 		"classof": "18학번",
 		"classofOrder": 2018
+	},
+	{
+		"name": "손성경",
+		"classof": "18학번",
+		"classofOrder": 2018
+	},
+	{
+		"name": "김대엽",
+		"classof": "18학번",
+		"classofOrder": 2018
+	},
+	{
+		"name": "이현진",
+		"classof": "18학번",
+		"classofOrder": 2018
+	},
+	{
+		"name": "황찬일",
+		"classof": "18학번",
+		"classofOrder": 2018
+	},
+	{
+		"name": "조권휘",
+		"classof": "18학번",
+		"classofOrder": 2018
+	},
+	{
+		"name": "이승민",
+		"classof": "18학번",
+		"classofOrder": 2018
+	},
+	{
+		"name": "김주영",
+		"classof": "18학번",
+		"classofOrder": 2018
+	},
+	{
+		"name": "안진혁",
+		"classof": "18학번",
+		"classofOrder": 2018
+	},
+	{
+		"name": "황서정",
+		"classof": "19학번",
+		"classofOrder": 2019
+	},
+	{
+		"name": "이수현",
+		"classof": "19학번",
+		"classofOrder": 2019
+	},
+	{
+		"name": "박소연",
+		"classof": "19학번",
+		"classofOrder": 2019
+	},
+	{
+		"name": "이혜영",
+		"classof": "19학번",
+		"classofOrder": 2019
+	},
+	{
+		"name": "이지석",
+		"classof": "19학번",
+		"classofOrder": 2019
+	},
+	{
+		"name": "이서영",
+		"classof": "20학번",
+		"classofOrder": 2020
+	},
+	{
+		"name": "이주윤",
+		"classof": "20학번",
+		"classofOrder": 2020
+	},
+	{
+		"name": "김송하",
+		"classof": "20학번",
+		"classofOrder": 2020
+	},
+	{
+		"name": "구하민",
+		"classof": "20학번",
+		"classofOrder": 2020
+	},
+	{
+		"name": "김득호",
+		"classof": "20학번",
+		"classofOrder": 2020
+	},
+	{
+		"name": "나리나",
+		"classof": "20학번",
+		"classofOrder": 2020
 	}
 ]
