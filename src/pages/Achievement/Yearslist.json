@@ -442,5 +442,74 @@
       "content": "한국외대 상위 10 % 성적우수자",
       "name": "김주원"
     }
+  ],
+  "2022": [
+    {
+      "title": "Google ML 부트캠프",
+      "content": "수료",
+      "name": "김주원"
+    },
+    {
+      "title": "2023 GDSC WinterCup",
+      "content": "본선 진출",
+      "name": "조미서 조윤주"
+    },
+    {
+      "title": "LG Aimers",
+      "content": "수료",
+      "name": "김주영 조권휘 외 1명"
+    },
+    {
+      "title": "SJR Team ROOT 게임",
+      "content": "런칭",
+      "name": "성재록 외 7명"
+    },
+    {
+      "title": "네이버 부스트캠프 AI Tech",
+      "content": "합격",
+      "name": "김주원"
+    },
+    {
+      "title": "HUFSTudy",
+      "content": "우수상",
+      "name": "김주원 백건우 외 2명"
+    }
+  ],
+  "2023": [
+    {
+      "title": "KDBC 학회 파일 단편화에 따른 DuckDB 성능 오버헤드 분석",
+      "content": "논문 출고",
+      "name": "박세현 류지원"
+    },
+    {
+      "title": "EEG-based Emotion Recognition with Semi-Supervised Learning",
+      "content": "Best paper Award",
+      "name": "김송하"
+    },
+    {
+      "title": "2024 AI/SW start-up job fair, organized by Seoul Ai Hub , Modoo.Lab (Feb.23, 2024) - \"Yum Yum\" 서비스",
+      "content": "대상",
+      "name": "김대현"
+    },
+    {
+      "title": "National Conference on Advanced Engineering and ICT- Convergence - \"Investing Mapping 101: Visualization of the Industry through Keywords & Sensitivity Analysis\"",
+      "content": "Best paper Award",
+      "name": "김대현"
+    },
+    {
+      "title": "Capstone 경진대회",
+      "content": "최우수상",
+      "name": "김송하 유승리 외 1명"
+    },
+    {
+      "title": "HUFSTudy",
+      "content": "우수상 수상",
+      "name": "김주원 백건우 외 2명"
+    },
+    {
+      "title": "제 2회 Hufsummer Hackathon",
+      "content": "대상",
+      "name": "김지섭 황병훈 외 2명"
+    }
   ]
 }
