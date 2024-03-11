@@ -45,7 +45,7 @@ const FAQ = () => {
                     </button>
                     </Link>
                 <p className="text-xs text-gray-500 mt-3">
-                        직접 운영진에 질문하시려면 아래의 카카오톡 플러스칱구를 이용해 질문해주세요~
+                        직접 운영진에 질문하시려면 아래의 카카오톡 플러스친구를 이용해 질문해주세요~
                     </p>
                     <a
                             className="text-center sm:text-left"
