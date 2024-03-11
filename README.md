@@ -37,14 +37,16 @@ git clone https://github.com/hufs-pnp/hufs-pnp.github.io.git
 1. npm이나 yarn을 사용해서 필수 모듈들을 설치합니다.
 
 ```bash
-npm install -D tailwindcss ## or yarn add
+npm install -D tailwindcss@2.2.14 ## or yarn add
 npx tailwindcss init 
 
 ```
 ```bash
 yarn add react-router-dom@5.2 --save ## npm install react-router-dom --save
 ```
-
+```bash
+npm install postcss@7.0.36 # yarn add
+```
 ```bash
 yarn add @craco/craco@5.9.0 ## npm install @craco/craco
 ```
