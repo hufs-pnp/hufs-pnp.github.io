@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.04087710.chunk.css",
-    "main.js": "/static/js/main.7cea8ec1.chunk.js",
-    "main.js.map": "/static/js/main.7cea8ec1.chunk.js.map",
+    "main.js": "/static/js/main.3da126b8.chunk.js",
+    "main.js.map": "/static/js/main.3da126b8.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2b744f7c.js",
     "runtime-main.js.map": "/static/js/runtime-main.2b744f7c.js.map",
     "static/js/2.573ce177.chunk.js": "/static/js/2.573ce177.chunk.js",
@@ -13,7 +13,7 @@
     "static/media/2018.d8024e53.png": "/static/media/2018.d8024e53.png",
     "static/media/2019.a6ee5a65.png": "/static/media/2019.a6ee5a65.png",
     "static/media/20202021.c970ac0d.png": "/static/media/20202021.c970ac0d.png",
-    "static/media/2022.028dedc4.png": "/static/media/2022.028dedc4.png",
+    "static/media/2022.c36d1e31.png": "/static/media/2022.c36d1e31.png",
     "static/media/GDSC.42592438.webp": "/static/media/GDSC.42592438.webp",
     "static/media/MemberCounter.css": "/static/media/counter.3f3e7e4d.jpg",
     "static/media/ictaes.437dc543.png": "/static/media/ictaes.437dc543.png",
@@ -33,6 +33,6 @@
     "static/js/runtime-main.2b744f7c.js",
     "static/js/2.573ce177.chunk.js",
     "static/css/main.04087710.chunk.css",
-    "static/js/main.7cea8ec1.chunk.js"
+    "static/js/main.3da126b8.chunk.js"
   ]
 }
