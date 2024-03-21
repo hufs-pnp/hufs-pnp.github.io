@@ -5,6 +5,8 @@ import heo from '../../static/images/leaders/20202021.png'
 import park from '../../static/images/leaders/2019.png'
 import jung from '../../static/images/leaders/2018.png'
 import kim from '../../static/images/leaders/2022.png'
+import cho from '../../static/images/leaders/2022.png'
+import lee from '../../static/images/leaders/2022.png'
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Scrollup from '../../components/Scrollup';
@@ -60,6 +62,48 @@ const About_leader = () => {
               <div class="md:flex-shrink-0">
               <img
                 class="object-cover md:h-full md:w-full"
+                src={lee}
+              />
+              </div>
+              <div class="p-8">
+                <h2 class="text-indigo-500 text-sm lg:text-base mb-1">2024</h2>
+                <h1 class="font-medium text-lg md:text-xl lg:text-2xl text-gray-900">이사야</h1>
+                <p className="mx-auto leading-relaxed mt-3 text-justify-center text-xs md:text-sm lg:text-base lg:whitespace-nowrap">
+                컴퓨터전자시스템공학부 20학번
+                <br/>이메일 : bsjp2012@naver.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      <div className="flex flex-col text-center md:w-1/3 lg:w-1/4  mb-8 mt-12">
+          <div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
+            <div class="md:flex-col">
+              <div class="md:flex-shrink-0">
+              <img
+                class="object-cover md:h-full md:w-full"
+                src={cho}
+              />
+              </div>
+              <div class="p-8">
+                <h2 class="text-indigo-500 text-sm lg:text-base mb-1">2023</h2>
+                <h1 class="font-medium text-lg md:text-xl lg:text-2xl text-gray-900">조윤주</h1>
+                <p className="mx-auto leading-relaxed mt-3 text-justify-center text-xs md:text-sm lg:text-base lg:whitespace-nowrap">
+                컴퓨터공학부 21학번
+                <br/>이메일 : cpis2@hufs.ac.kr
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <div className="flex flex-col text-center md:w-1/3 lg:w-1/4  mb-8 mt-12">
+          <div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
+            <div class="md:flex-col">
+              <div class="md:flex-shrink-0">
+              <img
+                class="object-cover md:h-full md:w-full"
                 src={kim}
               />
               </div>
@@ -74,6 +118,7 @@ const About_leader = () => {
             </div>
           </div>
         </div>
+
       <div className="flex flex-col text-center md:w-1/3 lg:w-1/4  mb-8 mt-12">
           <div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
             <div class="md:flex-col">
