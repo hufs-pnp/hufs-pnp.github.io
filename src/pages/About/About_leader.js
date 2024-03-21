@@ -5,8 +5,8 @@ import heo from '../../static/images/leaders/20202021.png'
 import park from '../../static/images/leaders/2019.png'
 import jung from '../../static/images/leaders/2018.png'
 import kim from '../../static/images/leaders/2022.png'
-import cho from '../../static/images/leaders/2022.png'
-import lee from '../../static/images/leaders/2022.png'
+import cho from '../../static/images/leaders/2023.png'
+import lee from '../../static/images/leaders/2024.png'
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Scrollup from '../../components/Scrollup';
