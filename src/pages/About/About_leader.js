@@ -70,7 +70,7 @@ const About_leader = () => {
                 <h1 class="font-medium text-lg md:text-xl lg:text-2xl text-gray-900">이사야</h1>
                 <p className="mx-auto leading-relaxed mt-3 text-justify-center text-xs md:text-sm lg:text-base lg:whitespace-nowrap">
                 컴퓨터전자시스템공학부 20학번
-                <br/>이메일 : bsjp2012@naver.com
+                <br/>이메일 : bsjp2012@hufs.ac.kr
                 </p>
               </div>
             </div>
