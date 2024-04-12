@@ -3,7 +3,7 @@ import React from 'react';
 import CountUp from 'react-countup';
 import VisibilitySensor from 'react-visibility-sensor';
 
-import MemberList from '../Member/MemberList';
+import MemberList from '../../pages/Members/Students/memberData.json';
 import AchievementList from '../Achievement/AchievementList';
 
 import './MemberCounter.css';
@@ -52,7 +52,7 @@ const MemberCounter = () => {
                             <h1 className="text-5xl font-normal title-font text-white mt-3">
                                 <CountUp
                                     start={0}
-                                    end={7}
+                                    end={9}
                                     duration="2"
                                     delay={0}
                                 >

@@ -8,26 +8,44 @@ const members = [
         profileImage: ''
     },
     {
+        name: "임다훈",
+        classOf: "21학번",
+        blogURL: '',
+        profileImage: ''
+    },
+    {
+        name: "조윤주",
+        classOf: "21학번",
+        blogURL: '',
+        profileImage: ''
+    },
+    {
         name: "김대현",
         classOf: "20학번",
         blogURL: '',
         profileImage: ''
     },
     {
-        name: "이정민",
-        classOf: "20학번",
+        name: "안수빈",
+        classOf: "23학번",
         blogURL: '',
         profileImage: ''
     },
     {
-        name: "최준혁",
-        classOf: "20학번",
+        name: "김나경",
+        classOf: "24학번",
         blogURL: '',
         profileImage: ''
     },
     {
-        name: "임지선",
-        classOf: "20학번",
+        name: "정보미",
+        classOf: "21학번",
+        blogURL: '',
+        profileImage: ''
+    },
+    {
+        name: "이채원",
+        classOf: "21학번",
         blogURL: '',
         profileImage: ''
     },
@@ -74,24 +92,6 @@ const members = [
         profileImage: ''
     },
     {
-        name: "조윤주",
-        classOf: "21학번",
-        blogURL: "https://yjyjy99.tistory.com/",
-        profileImage: ''
-    },
-    {
-        name: "임다훈",
-        classOf: "21학번",
-        blogURL: '',
-        profileImage: ''
-    },
-    {
-        name: "정보미",
-        classOf: "21학번",
-        blogURL: '',
-        profileImage: ''
-    },
-    {
         name: "안혜련",
         classOf: "21학번",
         blogURL: '',
@@ -105,12 +105,6 @@ const members = [
     },
     {
         name: "강도훈",
-        classOf: "21학번",
-        blogURL: '',
-        profileImage: ''
-    },
-    {
-        name: "이채원",
         classOf: "21학번",
         blogURL: '',
         profileImage: ''

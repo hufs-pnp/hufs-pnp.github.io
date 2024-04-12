@@ -41,6 +41,7 @@ const achievements = [
         imageurl: junctionximage,
         link: 'http://kshieldjr.org/',
     },
+    {},{},{}
 ];
 
 export default achievements;
