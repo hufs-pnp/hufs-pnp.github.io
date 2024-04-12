@@ -10,13 +10,13 @@ class MakeChart extends Component {
     let num_third_grade = 0
     let num_fourth_grade = 0
 
-    let classof_fifteen = 0
-    let classof_sixteen = 0
-    let classof_seventeen = 0
     let classof_eighteen = 0
     let classof_nineteen = 0
     let classof_twenty = 0
     let classof_twentyone = 0
+    let classof_twentytwo = 0
+    let classof_twentythree = 0
+    let classof_twentyfour = 0
 
     let j = 0
     let num_ai = 0
@@ -25,6 +25,10 @@ class MakeChart extends Component {
     let num_security = 0
     let num_data = 0
     let num_web = 0
+    let num_frontend = 0
+    let num_backend = 0
+    let num_java = 0
+    let num_c = 0
 
     while (i < memberData.length) {
       if (memberData[i].grade === '1') {
@@ -41,13 +45,7 @@ class MakeChart extends Component {
 
     i = 0
     while (i < memberData.length) {
-      if (memberData[i].classof === '15학번') {
-        classof_fifteen = classof_fifteen + 1
-      } else if (memberData[i].classof === '16학번') {
-        classof_sixteen = classof_sixteen + 1
-      } else if (memberData[i].classof === '17학번') {
-        classof_seventeen = classof_seventeen + 1
-      } else if (memberData[i].classof === '18학번') {
+      if (memberData[i].classof === '18학번') {
         classof_eighteen = classof_eighteen + 1
       } else if (memberData[i].classof === '19학번') {
         classof_nineteen = classof_nineteen + 1
@@ -55,6 +53,12 @@ class MakeChart extends Component {
         classof_twenty = classof_twenty + 1
       } else if (memberData[i].classof === '21학번') {
         classof_twentyone = classof_twentyone + 1
+      } else if (memberData[i].classof === '22학번') {
+        classof_twentytwo =  classof_twentytwo + 1
+      } else if (memberData[i].classof === '23학번') {
+        classof_twentythree = classof_twentythree + 1
+      } else if (memberData[i].classof === '24학번') {
+        classof_twentyfour = classof_twentyfour + 1
       }
       i = i + 1
     }
@@ -75,6 +79,14 @@ class MakeChart extends Component {
           num_algorithm += 1
         } else if (memberData[i].Team[j] === '보안') {
           num_security += 1
+        } else if (memberData[i].Team[j] === 'C') {
+          num_c += 1
+        } else if (memberData[i].Team[j] === '프론트엔드') {
+          num_frontend += 1
+        } else if (memberData[i].Team[j] === '백엔드') {
+          num_backend += 1
+        } else if (memberData[i].Team[j] === 'JAVA') {
+          num_java += 1
         }
         j = j + 1
       }
@@ -111,13 +123,13 @@ class MakeChart extends Component {
               loader={<div>Loading Chart...</div>}
               data={[
                 ['ClassOf', 'Number'],
-                ['15학번', classof_fifteen],
-                ['16학번', classof_sixteen],
-                ['17학번', classof_seventeen],
                 ['18학번', classof_eighteen],
                 ['19학번', classof_nineteen],
                 ['20학번', classof_twenty],
                 ['21학번', classof_twentyone],
+                ['22학번', classof_twentytwo],
+                ['23학번', classof_twentythree],
+                ['24학번', classof_twentyfour],
               ]}
               options={{
                 title: 'ClassOf',
@@ -147,8 +159,12 @@ class MakeChart extends Component {
                 ['게임', num_game],
                 ['알고리즘', num_algorithm],
                 ['보안', num_security],
-                ['Data', num_data],
+                // ['Data', num_data],
                 ['Web', num_web],
+                ['Front-End', num_frontend],
+                ['Back-End', num_backend],
+                ['C', num_c],
+                ['JAVA', num_java],
               ]}
               options={{
                 title: 'Team',
@@ -159,6 +175,8 @@ class MakeChart extends Component {
                   '#8000FF',
                   '#9A2EFE',
                   '#AC58FA',
+                  '#BE81F7',
+                  '#D1A3FF',
                 ],
                 fontSize: 13,
               }}
