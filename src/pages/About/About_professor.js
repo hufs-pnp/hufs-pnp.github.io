@@ -57,7 +57,7 @@ const About_leader = () => {
                         지도교수
                     </h2>
                     <h1 className=" text-2xl font-medium title-font text-gray-900">
-                        이재혁 교수님
+                        이재혁 교수님 (~24)
                     </h1>
                 </div>
             </div>
@@ -90,7 +90,7 @@ const About_leader = () => {
                         <p className="lg:text-lg mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
                         IEEE member</p>
                         <p className="lg:text-lg mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
-                        한국외대 과학기술학회 PNP 지도교수(2000-현재)</p>
+                        한국외대 과학기술학회 PNP 지도교수(2000-2024)</p>
                         <p className="lg:text-lg mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
                         한국외대 컴퓨터공학부 학부장(2021)</p>
                     </div>

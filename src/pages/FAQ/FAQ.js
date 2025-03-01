@@ -42,7 +42,7 @@ const FAQ = () => {
                     </p>
                     <a
                         className="text-center sm:text-left"
-                        href="http://pf.kakao.com/_kBSxes/chat"
+                        href="https://open.kakao.com/o/saiwA5hh"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -75,11 +75,11 @@ const FAQ = () => {
                     </button>
                 </div>
                     <p className="text-xs text-gray-500 mt-3">
-                        찾는 질문이 없으시면 아래의 카카오톡 플러스칱구를 이용해 질문해주세요~
+                        찾는 질문이 없으시면 아래의 카카오톡 플러스친구를 이용해 질문해주세요~
                     </p>
                     <a
                         className="text-center sm:text-left"
-                        href="http://pf.kakao.com/_kBSxes/chat"
+                        href="https://open.kakao.com/o/saiwA5hh"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
@@ -108,7 +108,7 @@ const FAQ = () => {
                             </div>
                             <a
                                 className="text-center sm:text-left"
-                                href="http://pf.kakao.com/_kBSxes/chat"
+                                href="https://open.kakao.com/o/saiwA5hh"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >

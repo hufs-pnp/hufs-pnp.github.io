@@ -56,6 +56,28 @@ const About_leader = () => {
       <section className= "border-t border-gray-200 md:mg-32 lg:mb-0">
       <div className="flex flex-wrap justify-center gap-4 mx-4 md:mx-0">
       <Fade bottom>
+
+      <div className="flex flex-col text-center md:w-1/3 lg:w-1/4  mb-8 mt-12">
+          <div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
+            <div class="md:flex-col">
+              <div class="md:flex-shrink-0">
+              <img
+                class="object-cover md:h-full md:w-full"
+                src={lee}
+              />
+              </div>
+              <div class="p-8">
+                <h2 class="text-indigo-500 text-sm lg:text-base mb-1">2025</h2>
+                <h1 class="font-medium text-lg md:text-xl lg:text-2xl text-gray-900">임다훈</h1>
+                <p className="mx-auto leading-relaxed mt-3 text-justify-center text-xs md:text-sm lg:text-base lg:whitespace-nowrap">
+                컴퓨터공학부 21학번
+                <br/>이메일 : 
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
       <div className="flex flex-col text-center md:w-1/3 lg:w-1/4  mb-8 mt-12">
           <div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
             <div class="md:flex-col">

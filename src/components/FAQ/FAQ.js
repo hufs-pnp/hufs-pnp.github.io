@@ -49,7 +49,7 @@ const FAQ = () => {
                     </p>
                     <a
                             className="text-center sm:text-left"
-                            href="http://pf.kakao.com/_kBSxes/chat"
+                            href="https://open.kakao.com/o/saiwA5hh"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
