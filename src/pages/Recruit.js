@@ -20,9 +20,8 @@ const Recruit = () => {
               학회 지원
             </h1>
             <p className="leading-relaxed text-base mb-6 mt-3 text-center sm:text-left">
-              PnP는 한국외국어대학교 컴퓨터공학부 재학생이라면 누구나 지원할
-              수 있습니다. 열정을 가지고 개발자로 성장하고 싶은 분들을 모두
-              환영합니다!
+              PnP는 한국외국어대학교 컴퓨터공학부 신입생 & 재학생 또는 공과계열 신입생이면 이라면 누구나 지원할
+              수 있습니다. 열정을 가지고 개발자로 성장하고 싶은 분들을 모두 환영합니다!
             </p>
             <a
               className="text-center sm:text-left"
