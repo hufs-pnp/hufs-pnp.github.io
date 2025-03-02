@@ -26,7 +26,7 @@ const Recruit = () => {
             </p>
             <a
               className="text-center sm:text-left"
-              href="https://forms.gle/EaCHoXuA9SeD15rY8"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeV1qN97-Di9F43Osd_1RD4wXbVjFdcptsWAHFDm8vCpYzroA/viewform"
               target="_blank"
               rel="noopener noreferrer"
             >
