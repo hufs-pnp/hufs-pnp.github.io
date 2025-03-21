@@ -7,6 +7,7 @@ import jung from '../../static/images/leaders/2018.png'
 import kim from '../../static/images/leaders/2022.png'
 import cho from '../../static/images/leaders/2023.png'
 import lee from '../../static/images/leaders/2024.png'
+import lim from '../../static/images/leaders/2025.png'
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Scrollup from '../../components/Scrollup';
@@ -63,7 +64,7 @@ const About_leader = () => {
               <div class="md:flex-shrink-0">
               <img
                 class="object-cover md:h-full md:w-full"
-                src={lee}
+                src={lim}
               />
               </div>
               <div class="p-8">
@@ -71,7 +72,7 @@ const About_leader = () => {
                 <h1 class="font-medium text-lg md:text-xl lg:text-2xl text-gray-900">임다훈</h1>
                 <p className="mx-auto leading-relaxed mt-3 text-justify-center text-xs md:text-sm lg:text-base lg:whitespace-nowrap">
                 컴퓨터공학부 21학번
-                <br/>이메일 : 
+                <br/>이메일 : 202102850@hufs.ac.kr
                 </p>
               </div>
             </div>
