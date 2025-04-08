@@ -1,0 +1,6 @@
+1. 로컬 테스트 완료후, 명령어 실행
+- npm install react-router-sitemap --save --legacy-peer-deps
+2. 개발후 commit & main에 push
+3. npm run build
+4. npm run deploy
+5. 배포 결과물 확인.
