@@ -6,6 +6,9 @@ import recruitimage from '../static/svg/recruit.svg'
 import Fade from 'react-reveal/Fade'
 import Scrollup from '../components/Scrollup'
 
+const recruitingEnd = new Date('2026-03-21T23:59:59')
+const isRecruiting = new Date() <= recruitingEnd
+
 const Recruit = () => {
   return (
     <div>
@@ -23,30 +26,37 @@ const Recruit = () => {
               PnP는 한국외국어대학교 컴퓨터공학부 신입생 & 재학생 또는 공과계열 신입생이면 이라면 누구나 지원할
               수 있습니다. 열정을 가지고 개발자로 성장하고 싶은 분들을 모두 환영합니다!
             </p>
-            <a
-              className="text-center sm:text-left"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeV1qN97-Di9F43Osd_1RD4wXbVjFdcptsWAHFDm8vCpYzroA/viewform"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="inline-flex mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg animate-bounce mt-2">
-                지원하기
-                <svg
-                  className="w-6 h-6 mt-0.5 ml-1"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M17 8l4 4m0 0l-4 4m4-4H3"
-                  ></path>
-                </svg>
-              </button>
-            </a>
+            {isRecruiting ? (
+              <a
+                className="text-center sm:text-left"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSeunr6NCkcHKyC_vBmEGsm1ls1z-5JajwIFg8bG2gZw-s41_w/viewform"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="inline-flex mr-auto text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg animate-bounce mt-2">
+                  지원하기
+                  <svg
+                    className="w-6 h-6 mt-0.5 ml-1"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M17 8l4 4m0 0l-4 4m4-4H3"
+                    ></path>
+                  </svg>
+                </button>
+              </a>
+            ) : (
+              <div className="mt-2 p-4 bg-gray-100 rounded-lg text-center sm:text-left">
+                <p className="text-gray-500 font-medium text-base">현재 모집 기간이 아닙니다.</p>
+                <p className="text-gray-400 text-sm mt-1">다음 모집 공고를 기다려주세요!</p>
+              </div>
+            )}
           </div>
 
           <Fade bottom>
@@ -71,13 +81,13 @@ const Recruit = () => {
                     <div class="order-1 w-5/12"></div>
                     <div class="order-1 w-5/12 px-1 py-4 text-right">
                       <p class="mb-3 text-base text-indigo-500">
-                        02.25 (화) ~ 03.12 (수)
+                        03.09 (월) ~ 03.19 (목)
                       </p>
                       <h4 class="mb-3 font-bold text-lg md:text-2xl">
                         지원서 제출
                       </h4>
                       <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
-                        약 16일간 학회원 모집이 진행됩니다.
+                        약 11일간 학회원 모집이 진행됩니다.
                       </p>
                       <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
                         (지원자 수에 따라 기간이 1~2일 변동 될 수도 있습니다.)
@@ -88,7 +98,7 @@ const Recruit = () => {
                     <div class="order-1 w-5/12"></div>
                     <div class="order-1  w-5/12 px-1 py-4 text-left">
                       <p class="mb-3 text-base text-indigo-500">
-                        03.13(목) ~ 03.18(화)
+                        03.23(월) ~ 03.24(화)
                       </p>
                       <h4 class="mb-3 font-bold text-lg md:text-2xl">면접</h4>
                       <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
@@ -103,7 +113,7 @@ const Recruit = () => {
                     <div class="order-1 w-5/12"></div>
                     <div class="order-1 w-5/12 px-1 py-4 text-right">
                       <p class="mb-3 text-base text-indigo-500">
-                        03.19(수)
+                        03.25(수)
                       </p>
                       <h4 class="mb-3 font-bold text-lg md:text-2xl">
                         최종 합격자 안내
@@ -122,9 +132,9 @@ const Recruit = () => {
                   <div class="mb-8 flex justify-between items-center w-full right-timeline">
                     <div class="order-1 w-5/12"></div>
                     <div class="order-1  w-5/12 px-1 py-4">
-                      <p class="mb-3 text-base text-indigo-500">03.24 (월) ~</p>
+                      <p class="mb-3 text-base text-indigo-500">03.25 (수) ~</p>
                       <h4 class="mb-3 font-bold  text-lg md:text-2xl text-left">
-                        2025년 PnP 활동 시작
+                        2026년 PnP 활동 시작
                       </h4>
                       <p class="text-sm md:text-base leading-snug text-gray-500 text-opacity-100">
                         학회 정규 활동이 시작됩니다.

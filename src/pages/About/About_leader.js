@@ -8,6 +8,7 @@ import kim from '../../static/images/leaders/2022.png'
 import cho from '../../static/images/leaders/2023.png'
 import lee from '../../static/images/leaders/2024.png'
 import lim from '../../static/images/leaders/2025.png'
+import ksm from '../../static/images/leaders/2026.png'
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import Scrollup from '../../components/Scrollup';
@@ -57,6 +58,27 @@ const About_leader = () => {
       <section className= "border-t border-gray-200 md:mg-32 lg:mb-0">
       <div className="flex flex-wrap justify-center gap-4 mx-4 md:mx-0">
       <Fade bottom>
+
+      <div className="flex flex-col text-center md:w-1/3 lg:w-1/4  mb-8 mt-12">
+          <div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden ">
+            <div class="md:flex-col">
+              <div class="md:flex-shrink-0">
+              <img
+                class="object-cover md:h-full md:w-full"
+                src={ksm}
+              />
+              </div>
+              <div class="p-8">
+                <h2 class="text-indigo-500 text-sm lg:text-base mb-1">2026</h2>
+                <h1 class="font-medium text-lg md:text-xl lg:text-2xl text-gray-900">김승민</h1>
+                <p className="mx-auto leading-relaxed mt-3 text-justify-center text-xs md:text-sm lg:text-base lg:whitespace-nowrap">
+                컴퓨터공학부 22학번
+                <br/>이메일 : 202200748@hufs.ac.kr
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
 
       <div className="flex flex-col text-center md:w-1/3 lg:w-1/4  mb-8 mt-12">
           <div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden ">

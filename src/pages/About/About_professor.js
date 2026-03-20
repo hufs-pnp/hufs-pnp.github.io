@@ -57,7 +57,7 @@ const About_leader = () => {
                         지도교수
                     </h2>
                     <h1 className=" text-2xl font-medium title-font text-gray-900">
-                        이재혁 교수님 (~24)
+                        지수연 교수님 (2025~현재)
                     </h1>
                 </div>
             </div>
@@ -66,33 +66,25 @@ const About_leader = () => {
             <div className="flex flex-wrap text-center mb-8 mt-12 mx-8">
                 <div class="mx-auto bg-white rounded-xl shadow-md overflow-hidden">
                     <div class="xl:flex">
-                    <div class="xl:flex">
+                    <div class="xl:flex-shrink-0 xl:w-96">
                     <img
-                        class="object-covel"
+                        class="h-full w-full object-cover"
                         src={professor}
                     />
                     </div>
                     <div class="p-8 text-justy-center">
-                        <h2 class=" text-indigo-500 tracking-widest font-medium title-font mb-1">2000~</h2>
+                        <h2 class=" text-indigo-500 tracking-widest font-medium title-font mb-1">2025~</h2>
                         <h1 class="font-medium title-font mb-4 text-gray-900">경력</h1>
                         <p className="lg:text-lg mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
-                        서울공대 제어계측공학과 학사(1986) </p>
+                        공학 학사, 서울대학교 전기·정보공학부 최우등 졸업(2017) </p>
                         <p className="lg:text-lg mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
-                        한국과학기술원 전기 및 전자공학과 석사(1988)</p>
+                        공학 석사 및 박사 통합 과정, 서울대학교 전기·정보공학부(2023)</p>
                         <p className="lg:text-lg mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
-                        한국과학기술원 전기 및 전자공학과 박사(1994)</p>
+                        박사후 연구원, 서울대학교 전기·정보공학부(2023-2024)</p>
                         <p className="lg:text-lg mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
-                        한국과학기술원 전기 및 전자공학과 Post-Doc(1994-1995)</p>
+                        한국외대 컴퓨터공학부 교수(2024-현재)</p>
                         <p className="lg:text-lg mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
-                        한국외대 디지털정보공학과 교수(1995-현재)</p>
-                        <p className="lg:text-lg mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
-                        대한전자공학회 정회원 </p>
-                        <p className="lg:text-lg mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
-                        IEEE member</p>
-                        <p className="lg:text-lg mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
-                        한국외대 과학기술학회 PNP 지도교수(2000-2024)</p>
-                        <p className="lg:text-lg mx-auto leading-relaxed text-base mt-3 text-justify-center lg:whitespace-nowrap">
-                        한국외대 컴퓨터공학부 학부장(2021)</p>
+                        한국외대 과학기술학회 PNP 지도교수(2025-현재)</p>
                     </div>
                     </div>
                 </div>

@@ -485,13 +485,13 @@
 	},
 	{
 		"name": "김민기",
-		"grade": "1",
+		"grade": "3",
 		"classof": "22학번",
-		"github": "none",
-		"blog": "none",
+		"github": "https://github.com/kmk1119",
+		"blog": "https://kmk1119.tistory.com/",
 		"email": "kmkcana@hufs.ac.kr",
 		"Team": [
-			"알고리즘"
+			"백엔드"
 		],
 		"profileImage": " "
 	},

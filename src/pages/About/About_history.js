@@ -82,6 +82,16 @@ const About_history = () => {
             ></div>
             <Fade bottom>
                     <div class="container w-1/2">
+                                <div class="mb-8 bg-white rounded-lg z-10 border border-gray-200 shadow-md order-1 w-full px-8 py-4 text-left">
+                                    <p class="mb-3 text-base text-indigo-500">
+                                        2025
+                                    </p>
+                                        <h4 class="mb-3 font-bold text-lg md:text-xl text-left">                                            지도교수 지수연 교수님 부임
+                                    </h4>
+                                    <p class="text-xs md:text-base text-gray-500 text-opacity-100">
+                                        지수연 교수님께서 2025년부터 한국외대 과학기술 학회 PnP의 지도교수님으로 부임하셨습니다.
+                                    </p>
+                                </div>
                                 <div class="mb-8 bg-white rounded-lg z-10 border border-gray-200 shadow-md w-full px-8 py-4 text-left">
                                     <p class="mb-3 text-base text-indigo-500">
                                         2022
