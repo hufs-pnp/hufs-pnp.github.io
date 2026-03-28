@@ -12,7 +12,7 @@ export default (
     <Route path="/about_professor"/>
     <Route path="/achievements"/>
     <Route path="/members" />
-    <Route path="/graduates"/>
+    <Route path="/graduate"/>
     <Route path="/recruit" />
     <Route path="/FAQ" />
     <Route path="/Blog" />
