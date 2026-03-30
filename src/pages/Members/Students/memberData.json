@@ -60,14 +60,87 @@
 		"profileImage": " "
 	},
 	{
-		"name": "임다훈",
+		"name": "김태호",
+		"grade": "4",
+		"classof": "20학번",
+		"github": "none",
+		"blog": "none",
+		"email": "andytaeho@naver.com",
+		"Team": [
+			"none"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "오정빈",
+		"grade": "4",
+		"classof": "20학번",
+		"github": "github.com/ojb007",
+		"blog": "none",
+		"email": "ojbjustin@naver.com",
+		"Team": [
+			"none"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "이규민",
+		"grade": "4",
+		"classof": "20학번",
+		"github": "none",
+		"blog": "none",
+		"email": "steve918@naver.com",
+		"Team": [
+			"Ai"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "박성하",
+		"grade": "4",
+		"classof": "20학번",
+		"github": "none",
+		"blog": "none",
+		"email": "202001435@hufs.ac.kr",
+		"Team": [
+			"알고리즘",
+			"Ai"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "배성민",
 		"grade": "3",
+		"classof": "20학번",
+		"github": "https://github.com/3ae3ae",
+		"blog": "none",
+		"email": "ogyshjsm@naver.com",
+		"Team": [
+			"Cloud"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "양지운",
+		"grade": "4",
+		"classof": "20학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"보안"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "임다훈",
+		"grade": "4",
 		"classof": "21학번",
 		"github": "none",
 		"blog": "none",
 		"email": "dmsdudgns@naver.com",
 		"Team": [
-			"알고리즘"
+			"보안"
 		],
 		"profileImage": " "
 	},
@@ -121,6 +194,78 @@
 		"profileImage": " "
 	},
 	{
+		"name": "김찬규",
+		"grade": "4",
+		"classof": "21학번",
+		"github": "https://github.com/kcg020529",
+		"blog": "none",
+		"email": "kcg020529@hufs.ac.kr",
+		"Team": [
+			"보안"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "허준재",
+		"grade": "4",
+		"classof": "21학번",
+		"github": "none",
+		"blog": "none",
+		"email": "wnswo22@naver.com",
+		"Team": [
+			"none"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "최성우",
+		"grade": "4",
+		"classof": "21학번",
+		"github": "https://github.com/seongwoo1201",
+		"blog": "https://velog.io/@chltjddn43/posts",
+		"email": "",
+		"Team": [
+			"보안"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "정지원",
+		"grade": "4",
+		"classof": "21학번",
+		"github": "none",
+		"blog": "none",
+		"email": "jw2321jj@naver.com",
+		"Team": [
+			"알고리즘"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "김용범",
+		"grade": "4",
+		"classof": "21학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"보안"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "박무열",
+		"grade": "4",
+		"classof": "21학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"보안"
+		],
+		"profileImage": " "
+	},
+	{
 		"name": "전세은",
 		"grade": "4",
 		"classof": "22학번",
@@ -133,18 +278,6 @@
 		"profileImage": " "
 	},
 	{
-		"name": "이소은",
-		"grade": "3",
-		"classof": "23학번",
-		"github": "https://github.com/soeun0127",
-		"blog": "none",
-		"email": "leesoeun3895@naver.com",
-		"Team": [
-			"AI"
-		],
-		"profileImage": " "
-	},
-	{
 		"name": "김진희",
 		"grade": "4",
 		"classof": "22학번",
@@ -152,19 +285,7 @@
 		"blog": "none",
 		"email": "202204487@hufs.ac.kr",
 		"Team": [
-			"Cloud"
-		],
-		"profileImage": " "
-	},
-	{
-		"name": "김태호",
-		"grade": "4",
-		"classof": "20학번",
-		"github": "none",
-		"blog": "none",
-		"email": "andytaeho@naver.com",
-		"Team": [
-			"none"
+			"알고리즘"
 		],
 		"profileImage": " "
 	},
@@ -182,6 +303,138 @@
 		"profileImage": " "
 	},
 	{
+		"name": "최담록",
+		"grade": "4",
+		"classof": "22학번",
+		"github": "https://github.com/KeyWaveTree",
+		"blog": "none",
+		"email": "damrok0815@gmail.com",
+		"Team": [
+			"Ai"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "이예진",
+		"grade": "4",
+		"classof": "22학번",
+		"github": "none",
+		"blog": "none",
+		"email": "202204427@hufs.ac.kr",
+		"Team": [
+			"AI"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "김민준",
+		"grade": "3",
+		"classof": "22학번",
+		"github": "https://github.com/minjun-kk",
+		"blog": "none",
+		"email": "none",
+		"Team": [
+			"WEB"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "이상연",
+		"grade": "3",
+		"classof": "22학번",
+		"github": "https://github.com/2sangyeon",
+		"blog": "none",
+		"email": "ssy9493@naver.com",
+		"Team": [
+			"게임"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "김민기",
+		"grade": "3",
+		"classof": "22학번",
+		"github": "https://github.com/kmk1119",
+		"blog": "https://kmk1119.tistory.com/",
+		"email": "kmkcana@hufs.ac.kr",
+		"Team": [
+			"백엔드"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "김승민",
+		"grade": "3",
+		"classof": "22학번",
+		"github": "https://github.com/seungm1in/test-repo",
+		"blog": "none",
+		"email": "legendman0509@gmail.com",
+		"Team": [
+			"알고리즘"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "송경환",
+		"grade": "3",
+		"classof": "22학번",
+		"github": "https://github.com/monds28",
+		"blog": "none",
+		"email": "katdia93@hufs.ac.kr",
+		"Team": [
+			"AI"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "김정유",
+		"grade": "3",
+		"classof": "22학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"게임"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "송진영",
+		"grade": "2",
+		"classof": "22학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"AI"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "주우재",
+		"grade": "2",
+		"classof": "22학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"AI"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "이소은",
+		"grade": "3",
+		"classof": "23학번",
+		"github": "https://github.com/soeun0127",
+		"blog": "none",
+		"email": "leesoeun3895@naver.com",
+		"Team": [
+			"AI"
+		],
+		"profileImage": " "
+	},
+	{
 		"name": "안수빈",
 		"grade": "3",
 		"classof": "23학번",
@@ -190,42 +443,6 @@
 		"email": "ahnsu04@naver.com",
 		"Team": [
 			"none"
-		],
-		"profileImage": " "
-	},
-	{
-		"name": "오정빈",
-		"grade": "4",
-		"classof": "20학번",
-		"github": "github.com/ojb007",
-		"blog": "none",
-		"email": "ojbjustin@naver.com",
-		"Team": [
-			"none"
-		],
-		"profileImage": " "
-	},
-	{
-		"name": "이규민",
-		"grade": "4",
-		"classof": "20학번",
-		"github": "none",
-		"blog": "none",
-		"email": "steve918@naver.com",
-		"Team": [
-			"Ai"
-		],
-		"profileImage": " "
-	},
-	{
-		"name": "이유준",
-		"grade": "2",
-		"classof": "24학번",
-		"github": "none",
-		"blog": "none",
-		"email": "yjlove4725@naver.com",
-		"Team": [
-			"백엔드"
 		],
 		"profileImage": " "
 	},
@@ -242,31 +459,6 @@
 		"profileImage": " "
 	},
 	{
-		"name": "박성하",
-		"grade": "4",
-		"classof": "20학번",
-		"github": "none",
-		"blog": "none",
-		"email": "202001435@hufs.ac.kr",
-		"Team": [
-			"알고리즘",
-			"Ai"
-		],
-		"profileImage": " "
-	},
-	{
-		"name": "최담록",
-		"grade": "4",
-		"classof": "22학번",
-		"github": "https://github.com/KeyWaveTree",
-		"blog": "none",
-		"email": "damrok0815@gmail.com",
-		"Team": [
-			"Ai"
-		],
-		"profileImage": " "
-	},
-	{
 		"name": "홍다오",
 		"grade": "2",
 		"classof": "23학번",
@@ -275,42 +467,6 @@
 		"email": "mmtsd@naver.com",
 		"Team": [
 			"Cloud"
-		],
-		"profileImage": " "
-	},
-	{
-		"name": "김찬규",
-		"grade": "3",
-		"classof": "21학번",
-		"github": "https://github.com/kcg020529",
-		"blog": "none",
-		"email": "kcg020529@hufs.ac.kr",
-		"Team": [
-			"알고리즘"
-		],
-		"profileImage": " "
-	},
-	{
-		"name": "이예진",
-		"grade": "4",
-		"classof": "22학번",
-		"github": "none",
-		"blog": "none",
-		"email": "202204427@hufs.ac.kr",
-		"Team": [
-			"백엔드"
-		],
-		"profileImage": " "
-	},
-	{
-		"name": "허준재",
-		"grade": "3",
-		"classof": "21학번",
-		"github": "none",
-		"blog": "none",
-		"email": "wnswo22@naver.com",
-		"Team": [
-			"none"
 		],
 		"profileImage": " "
 	},
@@ -340,14 +496,74 @@
 		"profileImage": " "
 	},
 	{
-		"name": "배성민",
+		"name": "권수현",
 		"grade": "3",
-		"classof": "20학번",
-		"github": "https://github.com/3ae3ae",
+		"classof": "23학번",
+		"github": "none",
 		"blog": "none",
-		"email": "ogyshjsm@naver.com",
+		"email": "sh0218@hufs.ac.kr",
 		"Team": [
-			"Cloud"
+			"알고리즘"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "김상진",
+		"grade": "3",
+		"classof": "23학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"알고리즘"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "송수한",
+		"grade": "2",
+		"classof": "23학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"보안"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "신규민",
+		"grade": "2",
+		"classof": "23학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"백엔드"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "윤대원",
+		"grade": "2",
+		"classof": "23학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"AI"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "이유준",
+		"grade": "2",
+		"classof": "24학번",
+		"github": "none",
+		"blog": "none",
+		"email": "yjlove4725@naver.com",
+		"Team": [
+			"백엔드"
 		],
 		"profileImage": " "
 	},
@@ -364,32 +580,56 @@
 		"profileImage": " "
 	},
 	{
-		"name": "김민준",
-		"grade": "2",
-		"classof": "22학번",
-		"github": "https://github.com/minjun-kk",
-		"blog": "none",
-		"email": "none",
+		"name": "소예린",
+		"grade": "3",
+		"classof": "24학번",
+		"github": "https://github.com/soyerin0407",
+		"blog": "https://soyerin0407.github.io/",
+		"email": "hstepk472@naver.com",
 		"Team": [
-			"WEB"
+			"알고리즘"
 		],
 		"profileImage": " "
 	},
 	{
-		"name": "최성우",
+		"name": "박주은",
 		"grade": "3",
-		"classof": "21학번",
-		"github": "https://github.com/seongwoo1201",
-		"blog": "https://velog.io/@chltjddn43/posts",
+		"classof": "24학번",
+		"github": "none",
+		"blog": "none",
 		"email": "",
 		"Team": [
-			"Ai"
+			"AI"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "백상열",
+		"grade": "3",
+		"classof": "24학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"게임"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "한지효",
+		"grade": "3",
+		"classof": "24학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"AI"
 		],
 		"profileImage": " "
 	},
 	{
 		"name": "김서현",
-		"grade": "1",
+		"grade": "2",
 		"classof": "25학번",
 		"github": "none",
 		"blog": "none",
@@ -401,7 +641,7 @@
 	},
 	{
 		"name": "정현준",
-		"grade": "1",
+		"grade": "2",
 		"classof": "25학번",
 		"github": "none",
 		"blog": "none",
@@ -413,7 +653,7 @@
 	},
 	{
 		"name": "김민우",
-		"grade": "1",
+		"grade": "2",
 		"classof": "25학번",
 		"github": "none",
 		"blog": "none",
@@ -425,19 +665,19 @@
 	},
 	{
 		"name": "김상민",
-		"grade": "1",
+		"grade": "2",
 		"classof": "25학번",
 		"github": "none",
 		"blog": "none",
 		"email": "sm213131@gmail.com",
 		"Team": [
-			"게임임"
+			"게임"
 		],
 		"profileImage": " "
 	},
 	{
 		"name": "정도진",
-		"grade": "1",
+		"grade": "2",
 		"classof": "25학번",
 		"github": "https://github.com/jindosz",
 		"blog": "none",
@@ -448,56 +688,20 @@
 		"profileImage": " "
 	},
 	{
-		"name": "소예린",
-		"grade": "2",
-		"classof": "24학번",
-		"github": "https://github.com/soyerin0407",
-		"blog": "https://soyerin0407.github.io/",
-		"email": "hstepk472@naver.com",
-		"Team": [
-			"알고리즘"
-		],
-		"profileImage": " "
-	},
-	{
 		"name": "장인범",
-		"grade": "1",
+		"grade": "2",
 		"classof": "25학번",
 		"github": "none",
 		"blog": "none",
 		"email": "ibjang05@naver.com",
 		"Team": [
-			"C"
-		],
-		"profileImage": " "
-	},
-	{
-		"name": "이상연",
-		"grade": "2",
-		"classof": "22학번",
-		"github": "https://github.com/2sangyeon",
-		"blog": "none",
-		"email": "ssy9493@naver.com",
-		"Team": [
-			"게임"
-		],
-		"profileImage": " "
-	},
-	{
-		"name": "김민기",
-		"grade": "3",
-		"classof": "22학번",
-		"github": "https://github.com/kmk1119",
-		"blog": "https://kmk1119.tistory.com/",
-		"email": "kmkcana@hufs.ac.kr",
-		"Team": [
-			"백엔드"
+			"AI"
 		],
 		"profileImage": " "
 	},
 	{
 		"name": "신지웅",
-		"grade": "1",
+		"grade": "2",
 		"classof": "25학번",
 		"github": "https://github.com/odinjiung8852",
 		"blog": "none",
@@ -508,56 +712,32 @@
 		"profileImage": " "
 	},
 	{
-		"name": "권수현",
-		"grade": "3",
-		"classof": "23학번",
-		"github": "none",
-		"blog": "none",
-		"email": "sh0218@hufs.ac.kr",
-		"Team": [
-			"알고리즘"
-		],
-		"profileImage": " "
-	},
-	{
-		"name": "정지원",
-		"grade": "3",
-		"classof": "21학번",
-		"github": "none",
-		"blog": "none",
-		"email": "jw2321jj@naver.com",
-		"Team": [
-			"알고리즘"
-		],
-		"profileImage": " "
-	},
-	{
 		"name": "양석진",
-		"grade": "1",
+		"grade": "2",
 		"classof": "25학번",
 		"github": "none",
 		"blog": "none",
 		"email": "yangseokjin28@naver.com",
 		"Team": [
-			"C"
+			"AI"
 		],
 		"profileImage": " "
 	},
 	{
 		"name": "이정우",
-		"grade": "1",
+		"grade": "2",
 		"classof": "25학번",
 		"github": "none",
 		"blog": "none",
 		"email": "ejungwoo201@gmail.com",
 		"Team": [
-			"Web"
+			"AI"
 		],
 		"profileImage": " "
 	},
 	{
 		"name": "김태연",
-		"grade": "1",
+		"grade": "2",
 		"classof": "25학번",
 		"github": "none",
 		"blog": "none",
@@ -569,7 +749,7 @@
 	},
 	{
 		"name": "이승헌",
-		"grade": "1",
+		"grade": "2",
 		"classof": "25학번",
 		"github": "none",
 		"blog": "none",
@@ -581,7 +761,7 @@
 	},
 	{
 		"name": "채지연",
-		"grade": "1",
+		"grade": "2",
 		"classof": "25학번",
 		"github": "none",
 		"blog": "none",
@@ -593,31 +773,19 @@
 	},
 	{
 		"name": "임유진",
-		"grade": "1",
+		"grade": "2",
 		"classof": "25학번",
 		"github": "none",
 		"blog": "none",
 		"email": "laseoul2006@gmail.com",
 		"Team": [
-			"C"
-		],
-		"profileImage": " "
-	},
-	{
-		"name": "김승민",
-		"grade": "2",
-		"classof": "22학번",
-		"github": "https://github.com/seungm1in/test-repo",
-		"blog": "none",
-		"email": "legendman0509@gmail.com",
-		"Team": [
-			""
+			"보안"
 		],
 		"profileImage": " "
 	},
 	{
 		"name": "이채린",
-		"grade": "1",
+		"grade": "2",
 		"classof": "25학번",
 		"github": "none",
 		"blog": "none",
@@ -629,55 +797,19 @@
 	},
 	{
 		"name": "이민석",
-		"grade": "1",
+		"grade": "2",
 		"classof": "25학번",
 		"github": "none",
 		"blog": "none",
 		"email": "",
 		"Team": [
-			"Game"
-		],
-		"profileImage": " "
-	},
-	{
-		"name": "김상진",
-		"grade": "1",
-		"classof": "23학번",
-		"github": "none",
-		"blog": "none",
-		"email": "",
-		"Team": [
-			"알고리즘"
-		],
-		"profileImage": " "
-	},
-	{
-		"name": "권수현",
-		"grade": "3",
-		"classof": "23학번",
-		"github": "none",
-		"blog": "none",
-		"email": " sh0218@hufs.ac.kr",
-		"Team": [
-			"알고리즘"
-		],
-		"profileImage": " "
-	},
-	{
-		"name": "송경환",
-		"grade": "2",
-		"classof": "22학번",
-		"github": "https://github.com/monds28",
-		"blog": "none",
-		"email": "katdia93@hufs.ac.kr",
-		"Team": [
-			"Ai"
+			"게임"
 		],
 		"profileImage": " "
 	},
 	{
 		"name": "차현민",
-		"grade": "1",
+		"grade": "2",
 		"classof": "25학번",
 		"github": "none",
 		"blog": "none",
@@ -688,16 +820,111 @@
 		"profileImage": " "
 	},
 	{
-		"name": "박주은",
-		"grade": "1",
-		"classof": "24학번",
+		"name": "이원준",
+		"grade": "2",
+		"classof": "25학번",
 		"github": "none",
 		"blog": "none",
 		"email": "",
 		"Team": [
-			"Web"
+			"보안"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "제이슨",
+		"grade": "2",
+		"classof": "25학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"백엔드"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "박상민",
+		"grade": "1",
+		"classof": "26학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"보안"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "주세현",
+		"grade": "1",
+		"classof": "26학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"보안"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "이승은",
+		"grade": "1",
+		"classof": "26학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"보안"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "이찬우",
+		"grade": "1",
+		"classof": "26학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"AI"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "조완희",
+		"grade": "1",
+		"classof": "26학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"보안"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "최세진",
+		"grade": "1",
+		"classof": "26학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"프론트엔드"
+		],
+		"profileImage": " "
+	},
+	{
+		"name": "이혜인",
+		"grade": "1",
+		"classof": "26학번",
+		"github": "none",
+		"blog": "none",
+		"email": "",
+		"Team": [
+			"프론트엔드"
 		],
 		"profileImage": " "
 	}
-	
 ]

@@ -17,6 +17,8 @@ class MakeChart extends Component {
     let classof_twentytwo = 0
     let classof_twentythree = 0
     let classof_twentyfour = 0
+    let classof_twentyfive = 0
+    let classof_twentysix = 0
 
     let j = 0
     let num_ai = 0
@@ -59,7 +61,12 @@ class MakeChart extends Component {
         classof_twentythree = classof_twentythree + 1
       } else if (memberData[i].classof === '24학번') {
         classof_twentyfour = classof_twentyfour + 1
+      } else if (memberData[i].classof === '25학번') {
+        classof_twentyfive = classof_twentyfive + 1
+      } else if (memberData[i].classof === '26학번') {
+        classof_twentysix = classof_twentysix + 1
       }
+
       i = i + 1
     }
 
@@ -130,6 +137,8 @@ class MakeChart extends Component {
                 ['22학번', classof_twentytwo],
                 ['23학번', classof_twentythree],
                 ['24학번', classof_twentyfour],
+                ['25학번', classof_twentyfive],
+                ['26학번', classof_twentysix],
               ]}
               options={{
                 title: 'ClassOf',
@@ -141,6 +150,8 @@ class MakeChart extends Component {
                   '#9A2EFE',
                   '#AC58FA',
                   '#BE81F7',
+                  '#D1A3FF',
+                  '#E8DAEF',
                 ],
                 fontSize: 13,
               }}
@@ -161,8 +172,8 @@ class MakeChart extends Component {
                 ['보안', num_security],
                 // ['Data', num_data],
                 ['Web', num_web],
-                ['Front-End', num_frontend],
-                ['Back-End', num_backend],
+                ['프론트엔드', num_frontend],
+                ['백엔드', num_backend],
                 ['C', num_c],
                 ['JAVA', num_java],
               ]}
@@ -177,6 +188,7 @@ class MakeChart extends Component {
                   '#AC58FA',
                   '#BE81F7',
                   '#D1A3FF',
+                  '#E8DAEF',
                 ],
                 fontSize: 13,
               }}
